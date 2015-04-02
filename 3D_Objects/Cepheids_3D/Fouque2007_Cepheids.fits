@@ -1,0 +1,254 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                 8373 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0' encoding='UTF-8'?>
+<VOTABLE version='1.1'>
+<!--
+ !  VOTable written by uk.ac.starlink.votable.FitsPlusTableWriter
+ !  Describes BINTABLE extensions in following HDUs
+ !-->
+<RESOURCE>
+<TABLE name="Joined" nrows="81">
+<DESCRIPTION>
+Adopted parallax of our calibrators
+</DESCRIPTION>
+<PARAM arraysize="19" datatype="char" name="votable-version" value="1.99+ (14-Oct-2013)"/>
+<PARAM arraysize="15" datatype="char" name="-ref" value="VIZ5519942ca1e0"/>
+<PARAM arraysize="4" datatype="char" name="-out.max" value="1000"/>
+<PARAM arraysize="2" datatype="char" name="queryParameters" value="48">
+<DESCRIPTION>-oc.form=dec
+-out.max=1000
+-out.all=2
+-out.add=_r
+-out.add=_RAJ,_DEJ
+-order=I
+-nav=cat:J/A+A/476/73&amp;tab:{J/A+A/476/73/table2}&amp;tab:{J/A+A/476/73/table6}&amp;key:source=J/A+A/476/73&amp;HTTPPRM:&amp;&amp;-ref=VIZ5519942ca1e0&amp;-out.max=1000&amp;-out.form=HTML Table&amp;-out.add=_r&amp;-out.add=_RAJ,_DEJ&amp;-oc.form=sexa&amp;-c.eq=J2000&amp;-c.r=  2&amp;-c.u=arcmin&amp;-c.geom=r&amp;-order=I&amp;-sort=recno&amp;-out=Star&amp;-out=E(B-V)&amp;-out=e_E(B-V)&amp;-out=N&amp;-out=More&amp;More=P&amp;-out=Simbad&amp;-ignore=Simbad=*&amp;Simbad=Simbad&amp;-out=_RA&amp;-out=_DE&amp;-out=logP&amp;-out=plx&amp;-out=e_plx&amp;-out=src1&amp;-out=u_src1&amp;-out=src2&amp;-out=u_src2&amp;-out=src3&amp;-out=u_src3&amp;-out=src4&amp;-out=u_src4&amp;-out=src5&amp;-out=u_src5&amp;-out=Mode&amp;-out=All&amp;All=All&amp;-out=BMAG&amp;-out=VMAG&amp;-out=RcMAG&amp;-out=IcMAG&amp;-out=Wvi&amp;-out=Wbi&amp;-out=JMAG&amp;-out=HMAG&amp;-out=KsMAG&amp;-file=.&amp;-meta.ucd=2&amp;-meta=1&amp;-meta.foot=1&amp;-usenav=1&amp;-bmark=POST&amp;-out.src=J/A+A/476/73/table2,J/A+A/476/73/table6,J/A+A/476/73/table7&amp;
+-c.eq=J2000
+-c.r=  2
+-c.u=arcmin
+-c.geom=r
+-source= J/A+A/476/73/table2 J/A+A/476/73/table6
+-order=I
+-out=Star
+-out=E(B-V)
+-out=e_E(B-V)
+-out=N
+-out=More
+More=P
+-out=Simbad
+-out=_RA
+-out=_DE
+-out=logP
+-out=plx
+-out=e_plx
+-out=src1
+-out=u_src1
+-out=src2
+-out=u_src2
+-out=src3
+-out=u_src3
+-out=src4
+-out=u_src4
+-out=src5
+-out=u_src5
+-out=Mode
+-out=All
+All=All
+-out=BMAG
+-out=VMAG
+-out=RcMAG
+-out=IcMAG
+-out=Wvi
+-out=Wbi
+-out=JMAG
+-out=HMAG
+-out=KsMAG
+-out.src=J/A+A/476/73/table2,J/A+A/476/73/table6,J/A+A/476/73/table7</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="1" datatype="char" name="CatalogsExamined" value="2">
+<DESCRIPTION>2 catalogues with potential matches were examined.</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="22" datatype="char" name="Warning" value="No center provided++++"/>
+<PARAM arraysize="34" datatype="char" name="Warning" value="skip recno in all column selection"/>
+<PARAM arraysize="49" datatype="char" name="Warning" value="Bad col/cst &quot;All=All&quot;, table: J/A+A/476/73/table2"/>
+<PARAM arraysize="67" datatype="char" name="Warning" value="Missing UCD2 in table: J/A+A/476/73/table2 (Simbad) ucd1=530 ucd2=0"/>
+<PARAM arraysize="22" datatype="char" name="Warning" value="No center provided++++"/>
+<PARAM arraysize="34" datatype="char" name="Warning" value="skip recno in all column selection"/>
+<PARAM arraysize="69" datatype="char" name="Warning" value="Problem in vc_coo: **no RA** **no DE** for table: J/A+A/476/73/table6"/>
+<PARAM arraysize="50" datatype="char" name="Warning" value="Column '_RAJ' can'be created (J/A+A/476/73/table6)"/>
+<PARAM arraysize="69" datatype="char" name="Warning" value="Problem in vc_coo: **no RA** **no DE** for table: J/A+A/476/73/table6"/>
+<PARAM arraysize="50" datatype="char" name="Warning" value="Column '_DEJ' can'be created (J/A+A/476/73/table6)"/>
+<PARAM arraysize="48" datatype="char" name="Warning" value="Bad col/cst &quot;More=P&quot;, table: J/A+A/476/73/table6"/>
+<PARAM arraysize="19" datatype="char" name="votable-version" value="1.99+ (14-Oct-2013)"/>
+<PARAM arraysize="15" datatype="char" name="-ref" value="VIZ5519942ca1e0"/>
+<PARAM arraysize="4" datatype="char" name="-out.max" value="1000"/>
+<PARAM arraysize="2" datatype="char" name="queryParameters" value="48">
+<DESCRIPTION>-oc.form=dec
+-out.max=1000
+-out.all=2
+-out.add=_r
+-out.add=_RAJ,_DEJ
+-order=I
+-nav=cat:J/A+A/476/73&amp;tab:{J/A+A/476/73/table2}&amp;tab:{J/A+A/476/73/table6}&amp;key:source=J/A+A/476/73&amp;HTTPPRM:&amp;&amp;-ref=VIZ5519942ca1e0&amp;-out.max=1000&amp;-out.form=HTML Table&amp;-out.add=_r&amp;-out.add=_RAJ,_DEJ&amp;-oc.form=sexa&amp;-c.eq=J2000&amp;-c.r=  2&amp;-c.u=arcmin&amp;-c.geom=r&amp;-order=I&amp;-sort=recno&amp;-out=Star&amp;-out=E(B-V)&amp;-out=e_E(B-V)&amp;-out=N&amp;-out=More&amp;More=P&amp;-out=Simbad&amp;-ignore=Simbad=*&amp;Simbad=Simbad&amp;-out=_RA&amp;-out=_DE&amp;-out=logP&amp;-out=plx&amp;-out=e_plx&amp;-out=src1&amp;-out=u_src1&amp;-out=src2&amp;-out=u_src2&amp;-out=src3&amp;-out=u_src3&amp;-out=src4&amp;-out=u_src4&amp;-out=src5&amp;-out=u_src5&amp;-out=Mode&amp;-out=All&amp;All=All&amp;-out=BMAG&amp;-out=VMAG&amp;-out=RcMAG&amp;-out=IcMAG&amp;-out=Wvi&amp;-out=Wbi&amp;-out=JMAG&amp;-out=HMAG&amp;-out=KsMAG&amp;-file=.&amp;-meta.ucd=2&amp;-meta=1&amp;-meta.foot=1&amp;-usenav=1&amp;-bmark=POST&amp;-out.src=J/A+A/476/73/table2,J/A+A/476/73/table6,J/A+A/476/73/table7&amp;
+-c.eq=J2000
+-c.r=  2
+-c.u=arcmin
+-c.geom=r
+-source= J/A+A/476/73/table2 J/A+A/476/73/table6
+-order=I
+-out=Star
+-out=E(B-V)
+-out=e_E(B-V)
+-out=N
+-out=More
+More=P
+-out=Simbad
+-out=_RA
+-out=_DE
+-out=logP
+-out=plx
+-out=e_plx
+-out=src1
+-out=u_src1
+-out=src2
+-out=u_src2
+-out=src3
+-out=u_src3
+-out=src4
+-out=u_src4
+-out=src5
+-out=u_src5
+-out=Mode
+-out=All
+All=All
+-out=BMAG
+-out=VMAG
+-out=RcMAG
+-out=IcMAG
+-out=Wvi
+-out=Wbi
+-out=JMAG
+-out=HMAG
+-out=KsMAG
+-out.src=J/A+A/476/73/table2,J/A+A/476/73/table6,J/A+A/476/73/table7</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="1" datatype="char" name="CatalogsExamined" value="2">
+<DESCRIPTION>2 catalogues with potential matches were examined.</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="25" datatype="char" name="First input table" value="1: Fouque2007_Cepheids_T2"/>
+<PARAM arraysize="25" datatype="char" name="Second input table" value="2: Fouque2007_Cepheids_T6"/>
+<FIELD datatype="double" name="_RAJ2000" precision="5" ref="J2000" ucd="pos.eq.ra" unit="deg" width="9">
+<DESCRIPTION>Right ascension (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="_DEJ2000" precision="5" ref="J2000" ucd="pos.eq.dec" unit="deg" width="9">
+<DESCRIPTION>Declination (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data)</DESCRIPTION>
+</FIELD>
+<FIELD arraysize="9" datatype="char" name="Star_1" ucd="meta.id;meta.main">
+<DESCRIPTION>Star name</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="E(B-V)" precision="3" ucd="phot.color.excess" unit="mag" width="6">
+<DESCRIPTION>Adopted weighted mean extinction value</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="e_E(B-V)" precision="3" ucd="stat.error" unit="mag" width="6">
+<DESCRIPTION>rms uncertainty on E(B-V)</DESCRIPTION>
+</FIELD>
+<FIELD datatype="short" name="N" ucd="meta.number" width="2">
+<DESCRIPTION>Number of measures</DESCRIPTION>
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="double" name="logP" precision="6" ucd="time.period" unit="[d]" width="9">
+<DESCRIPTION>Period</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="plx" precision="2" ucd="pos.parallax.trig" unit="mas" width="5">
+<DESCRIPTION>Adopted parallax</DESCRIPTION>
+</FIELD>
+<FIELD datatype="float" name="e_plx" precision="2" ucd="stat.error;pos.parallax" unit="mas" width="5">
+<DESCRIPTION>rms uncertainty on plx</DESCRIPTION>
+</FIELD>
+<FIELD datatype="double" name="Distance" ucd="PHYS_DISTANCE" unit="pc">
+<DESCRIPTION>(1000./plx)</DESCRIPTION>
+</FIELD>
+<FIELD arraysize="2" datatype="char" name="Mode" ucd="meta.code;src.var">
+<DESCRIPTION>Pulsation mode (3)</DESCRIPTION>
+</FIELD>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>                                                                                                                                                                                                                                                                           XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                   61 / width of table in bytes                        NAXIS2  =                   81 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                   11 / number of columns                              EXTNAME = 'Joined  '           / table name                                     TTYPE1  = '_RAJ2000'           / label for column 1                             TFORM1  = 'D       '           / format for column 1                            TUNIT1  = 'deg     '           / units for column 1                             TUCD1   = 'pos.eq.ra'                                                           TTYPE2  = '_DEJ2000'           / label for column 2                             TFORM2  = 'D       '           / format for column 2                            TUNIT2  = 'deg     '           / units for column 2                             TUCD2   = 'pos.eq.dec'                                                          TTYPE3  = 'Star_1  '           / label for column 3                             TFORM3  = '9A      '           / format for column 3                            TCOMM3  = 'Star name'                                                           TUCD3   = 'meta.id;meta.main'                                                   TTYPE4  = 'E(B-V)  '           / label for column 4                             TFORM4  = 'E       '           / format for column 4                            TUNIT4  = 'mag     '           / units for column 4                             TCOMM4  = 'Adopted weighted mean extinction value'                              TUCD4   = 'phot.color.excess'                                                   TTYPE5  = 'e_E(B-V)'           / label for column 5                             TFORM5  = 'E       '           / format for column 5                            TUNIT5  = 'mag     '           / units for column 5                             TCOMM5  = 'rms uncertainty on E(B-V)'                                           TUCD5   = 'stat.error'                                                          TTYPE6  = 'N       '           / label for column 6                             TFORM6  = 'I       '           / format for column 6                            TCOMM6  = 'Number of measures'                                                  TUCD6   = 'meta.number'                                                         TTYPE7  = 'logP    '           / label for column 7                             TFORM7  = 'D       '           / format for column 7                            TUNIT7  = '[d]     '           / units for column 7                             TCOMM7  = 'Period  '                                                            TUCD7   = 'time.period'                                                         TTYPE8  = 'plx     '           / label for column 8                             TFORM8  = 'E       '           / format for column 8                            TUNIT8  = 'mas     '           / units for column 8                             TCOMM8  = 'Adopted parallax'                                                    TUCD8   = 'pos.parallax.trig'                                                   TTYPE9  = 'e_plx   '           / label for column 9                             TFORM9  = 'E       '           / format for column 9                            TUNIT9  = 'mas     '           / units for column 9                             TCOMM9  = 'rms uncertainty on plx'                                              TUCD9   = 'stat.error;pos.parallax'                                             TTYPE10 = 'Distance'           / label for column 10                            TFORM10 = 'D       '           / format for column 10                           TUNIT10 = 'pc      '           / units for column 10                            TCOMM10 = '(1000./plx)'                                                         TUCD10  = 'PHYS_DISTANCE'                                                       TTYPE11 = 'Mode    '           / label for column 11                            TFORM11 = '2A      '           / format for column 11                           TCOMM11 = 'Pulsation mode (3)'                                                  TUCD11  = 'meta.code;src.var'                                                   DATE-HDU= '2015-03-31T02:00:44' / Date of HDU creation (UTC)                    STILVERS= '3.0-6   '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / Author class in STIL soEND                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             @rElãCïÅ¿-%Ì–RìU Aql    >∏QÏ<#◊
+ 
+?ÎFB–_?”33=£◊
+@Ç|#ü%⁄  @q‚†Ø¢Z?ÙÊ5~gSZ Aql   ?	x’<ãCñ 	?Ûæï1U¢>ÎÖ<#◊
+@†˚”uDé  @qÍ®ÎF5?Ù«E8Ô4◊TT Aql   >‡Aâ<49X ?Ú7 »ÕcÃ?}p§<ı¬è@èêŒŸHF  @q»˚≤˛≈m@1\dôÃ£FF Aql   >H¥9<#◊
+ ?‰–^çT@3◊
+>8QÏ@v=ÛFuª·  @qı‡"'@%ﬂ¯"ªÌFM Aql   ?»¥<Dõ¶ 	?È)∂≤ØU?Yôö=LÃÕ@ía·Ÿ;Y|  @r'Ü¬&Å@uòùÒ/FN Aql   >˜K«<#◊
+ ?ÔBï¶≈“?fff<ı¬è@ë\qŒ”¿Œ  @qÒbwƒ\º¿¿Aâ7K«V496 Aql >ÀCñ<#◊
+ ?Íßóâ!S?àı√=·GÆ@ç4¢ôÙK  @r°‰%ÆÊ2?.ÆSeeta Aql  >∏<tº ?Îc«OµI˘@ÑÃÕ>u¬è@n◊€∂l  @XI.ÆS@>~76ÕÚgRT Aur   =q©¸<T˝Ù ?‚I£L†¬É@ôö>Bè\@z
+™ôN8Ô  @dél -∂¿M›∏f‰:®U Car    >áÆ<#◊
+ ?˘lkŒÖ3±?+Ö<ı¬è@óR&+ø  @_À¶ﬁ¸z:¿N∞≥ëídV Car    >-V<49X ?ÍmqÛbbÃ?u¬è>\)@êF™∞≈*≠  @d$[Í°ı¿L»^N‹VY Car   >r∞!<tº 	?Ùmÿ∂&?ÃÕ<ı¬è@úh∫$7!  @dzMΩ¯Ù¿NxQó¢HïWZ Car   >Ωp§<49X ?ı ®ewí>îz·<#◊
+@™çJÃgÖ  @dõwpyÂü¿MΩ›¡Áñ}GT Car   ?]≤-<Ìëh ?ÒÁlãCïÅ=ÃÃÕ<£◊
+@√áˇ˚   @cw¿≠Ÿ©¿Pπ≤-Vl Car    >á+<T˝Ù ?¯–$p!—@ £◊>LÃÕ@2Ùwµ  @EUõ=»@Q8›/üæSU Cas   >Ñõ¶<#◊
+ 	?“çuûËçÛ@  >.{@{«q«rFO@vy2‘‘K@NúK±Ø:CF Cas   ?ëh<49X ?Êìtºj>îz·<£◊
+@™çJÃgÖ  @˘˝6˜„“@N!ÅZ≥DL Cas   >˘€#<#◊
+ 	?ÏÊ1¯†ê.?ôö<ı¬è@ö
+™ôN8Ô  @kDiDg8¿Lq†œ ®V Cen    >ïÅ<Dõ¶ 	?Á≠≈3?”33=ı¬è@Ç|#ü%⁄  @ioﬁÁÅÉ˘¿Pé!ñRΩVW Cen   >€"—<ƒõ¶ ?Ú’éßŒ√>è\)<#◊
+@´Ê€k∏ß/  @i¢|Zƒq¥¿LŒ|ÆßGÿXX Cen   >à1'<49X ?°˝iÙê?(ı√=#◊
+@ó¨õK  @iÑÎ1;‚.¿P#ªÉœ,˘KN Cen   ?L1=∫^5 ?¯Ç||R`ˆ>ä=q<£◊
+@¨Ôh8èÕ{  @uØ:Œƒ@M5%F
+¶Ldelta Cep=ôôö<#◊
+ 	?ÁYÖ≠Sä¬@j=q>ôö@qï®%C  @gA_E‡µ¿O£€†•&ñSU Cru   ?q&È=ƒõ¶ ?ÒΩ•ú‡v?∏R=£◊
+@ô3ú„˘W  @g}`ïlo¿M∂C¥gBG Cru   >+<ºj ?‡ƒõ•„S¯@∏R>ôôö@|„H‰õßFO@smú‡uˆ˝@AÀ=»K^X Cyg    >ix’<Dõ¶ 	?ÛnÑ≠yJo?\(ˆ<£◊
+@í+)ßî≤„  @rÉ?ª◊≤@=C¬πMîSU Cyg   =»¥9<e`B ?‚∑ÌA∑Zu?òQÏ=LÃÕ@äB∞RWÒ  @t~√Aû0@Eë(9-åVZ Cyg   >à1'<49X ?Â¸.∫'Æõ?
+=q<£◊
+@úÔh8èÕ{  @r—≈XdE$@A^›)5CD Cyg   >¸j<u¬è ?Û∑£€;˚Y>«Æ<#◊
+@§4èú  @s -å*E@?/E‡¥·DT Cyg   =,1<49X ?ŸuûËçÛs@(ˆ>®ı√@|âÔï˘NÄFO@T⁄%ôÌ|¿O>≤ø€L¬beta Dor =T˝Ù<#◊
+ 	?Ô«∫©¥ô–@Hı√>#◊
+@sÁäéﬁ  @ZÅΩ¯Ùs@4ëˇ.HËßzeta Gem <e`B<49X ?ßÉ@1ÎÖ>8QÏ@v{eOdˇ  @ud6E° ¡@L6œAÚ◊X Lac    >¨1<49X ?ÁçIîûà>Ωp§=LÃÕ@•gƒQYFO@tƒ1zÃN˘@IÖﬁi≠BƒY Lac    >S˜œ<Éo ?‰X˝\∑ê˚>·GÆ<£◊
+@°¡t^¥~Ò  @uCy˙ó·3@Lj,≠ÅÆZ Lac    >Ωp§<49X ?ñÙ8K†Ë?Æ<#◊
+@ù{+ìtam  @t°≠-Àf@Eπ‚XOLBG Lac   >ôôö<Éo ?ÁB†# ñx?
+=<ı¬è@ö{©L('z  @lÂ¨1'¿JmKH”ÆhGH Lup   >´Ö<ìtº ?ÓıUÇîW?c◊
+>ôö@ëéa–ı  @XwÖrõ(@Wƒ\ª¬πT Mon    >9X<49X ?ˆÈ≥˙m?8QÏ<ı¬è@ï≥é*k⁄  @X—J°!@Ç˝u‚lCV Mon   ?8‘˛<¥9X ?Áa≈ÇU∞6?!GÆ=LÃÕ@òÕ4÷stm  @fÊDÂ^≥¿Qâ∂ÌgwS Mus    >Yá<ãCñ ?ÔÑÙ∆ÊŸæ?ú(ˆ=£◊
+@âù`|7ñ‰  @fB\˙¨ŸË¿PYﬁ l†UU Mus   >ÃI∫<u¬è ?Òò9GIk>®ı√=#◊
+@ß¨õK  @nñÈ9Í›Y¿LÛ,Qó¢IS Nor    >7K«<tº 
+?Ôßz,Ï»?áÆ=LÃÕ@ç{+ìtam  @mr…ÓÀ˚¿KßÏ˛õ{ÚU Nor    ?\¨<ƒõ¶ ?Ò°GÆz·?O\)=#◊
+@ìJEÜÚŸÕ  @n'\¶ ≈¿I˙ùù4YTW Nor   ?îì<e`B ?Ü¬&ÄùI?∏<ı¬è@ûN◊j	"  @nZ∫^5?}¿K-S&¡æQZ Nor   >Åâ7<Éo ?‚Ä˘è£ví?J=q=ÃÃÕ@ì«Jö   @nj[Å0H¿Kı◊àV340 Nor >§Z<ìtº ?◊]◊MY?\)=·GÆ@õÊ€k∏ß/  @p¬îÖ]¢s¿ì¢±pPY Oph    ?%∏<u¬è 	?Ûº‹ p—˙?ÁÆ>∏@ÅC„øú:ê  @p]÷‡L¿:îüîÖ]¢BF Oph   >p£◊<#◊
+ ?„üá#Í?»ı√=£◊
+@ÉÁäéﬁ  @\LäÔ≤™„¿4Ë·qüçX Pup    >Õ“Ú<tº 
+?ˆ†˘	kπå>£◊<ı¬è@†üQ¥s∑9  @^—›ÎŸ¿AJEb‡†RS Pup   >È˚Á<tº 
+?˘‡ÛÀ>WT?ÃÕ<ı¬è@úh∫$7!  @\©e©®ñ¿<Êp‚¡+VZ Pup   >Î<49X ?ı÷–ë}kf>ä=q<£◊
+@¨Ôh8èÕ{  @]Â‰%ÆÊ2¿=!N;Õ5®AQ Pup   ?õ¶<#◊
+ ?˜®q£±Jê>®ı√<£◊
+@ß¨õK  @^e∫
+RiY¿>Õ Ø¢BN Pup   >‘˝Ù<ìtº ?Ú,Ç‡∞´>Ö∏<£◊
+@ÆN◊j	"  @]Ô ¿Éo¿=N—9C≠LS Pup   >Ï1<u¬è ?Úi«¥_>W
+=<£◊
+@≤ôÁ®8<d  @r∞ï˛⁄f@0¢Ç@∑Ä4S Sge    =ÃÃÕ<#◊
+ 	?Ìå~VG4?Ωp§=LÃÕ@ÖgƒQY  @r]ª∏<Ú–@34ËS;wGY Sge   ?óÔû>.{ ?˚T`™d¬¯>£◊
+<#◊
+@®j 	'¿  @q_é,≠Ç¿3 ñgµÚU Sgr    >ŒV<tº ?Íá$∑omv?‚è\=u¬è@Åß∆(À‰0  @pÙ„º”[¿=îÄ«:ºîW Sgr    =›/<49X ?Ï-<y-à@ÎÖ>LÃÕ@{iã@(/H  @pÆ=Ÿb∑¿;‘ÆßGÿX Sgr    >r∞!<u¬è 	?Î´éé£ú@@  >8QÏ@t’UUUUU  @q5àPõ˘∆¿2‹(ı¬è\Y Sgr    >CïÅ<#◊
+ ?Ë]û@»G,@QÏ>îz·@}Wºómõ∂  @q#˚*Æ)t¿3iòJAWZ Sgr   >‹¨<49X ?ın[»}≤≥?ÎÖ<£◊
+@õiã@(/H  @q•ÁÍ_ÑÀ¿0π~|‚YZ Sgr   >èﬂ;<#◊
+ ?Ô]èíØöç?Ä  =ı¬è@è@       @q´˝‘A5T¿4Kî1zÃOBB Sgr   >èﬂ;<tº 
+?ÍMñ hUT?¢è\=LÃÕ@àõ6sÁl  @qï*ô0æ¿4•∫≤†V350 Sgr >ôá<#◊
+ ?Ê Ac?àı√=u¬è@ç4¢ôÙK  @pª}VlÙ¿@⁄Se‚XRY Sco   ?7ŒŸ<ìtº ?ÙÌD‹®‚„?Yôö=#◊
+@ía·Ÿ;Y|  @où#Ãç‚¨¿F∂ù«%√ﬂKQ Sco   ?^v…<¨1 ?˜RΩ<64>≥33=#◊
+@¶RI*ÚU  @qá¬Eı≠ó¿qP⁄„Ê≈RU Sct   ?k∆®<Dõ¶ ?Ù∂0©7†?z·=LÃÕ@öçJÃgÖ  @qéÊö‘,=¿Ï•zxl"SS Sct   >¶ff<#◊
+ ?‚ÙœJUè?®ı√>ôö@á¨õK  @qr£·Üò5¿ ^†∫KEV Sct   ?'Æ<T˝Ù ?ﬂ]ƒ up≈?ôö=ı¬è@ö
+™ôN8ÔFO@qffffff¿$ŸôôôôöV367 Sct ?ùëh<ÃÃÕ ?Èêñªò«„?(ˆ<ı¬è@ôù`|7ñ‰DM@QS√Lã@2ãöø4SZ Tau   >ó
+=<49X ?ﬂ·Û•~™*?˘ôö=·GÆ@ÄêbsuˇFO@B˙-∂∞`@VPÁ-°"˚alpha UMi;Dõ¶<T˝Ù ?„+I∫^@˜
+==ı¬è@`1Ï⁄∞7FO@`-qäÜ◊¿GÆUp
+T Vel    >ì˜œ<#◊
+ ?ÂS˘Á∏
+û?}p§<#◊
+@èêŒŸHF  @cexñ”¿K©#¢úwöRY Vel   ?1<#◊
+ 	?˜/¿Lã…Õ>Êff<ı¬è@°\qŒ”¿Œ  @`(,{âZ¿F≠’ê¿≠RZ Vel   >ôá<#◊
+ ?ÙÛ˘aÄMò?333<ı¬è@ñRI*ÚU  @`](°ﬂπ9¿G≥ô≈XdSW Vel   >∞ ≈<#◊
+ 	?ıÎïÂØÚ°>◊
+=<#◊
+@¢ôÁ®8<d  @b)33333¿JË2ãmáCS Vel   ?<¨<Ìëh ?Ë≠≠∏4èT>®ı√<ı¬è@ß¨õK  @rëñH@·r@;IXbM”S Vul    ?:¨=,1 ?˝fŒ->u¬è=∏QÏ@∞F™∞≈*≠  @sç·Ôs¿¬@<@!laR*T Vul    =Éo<49X ?‰≥ÆÓïtq?Û33>kÖ@ÄrÜ¿^  @rbÉÓ¢	´@4U;éKáæU Vul    ?^5<49X ?Ï·˜◊<íX?∫·H=u¬è@Ögs∞z˙‡  @rû{û@;u—¢£YSV Vul   >Ï1<¥9X ?˙pÏ1"Å>ÎÖ<#◊
+@†˚”uDé                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
