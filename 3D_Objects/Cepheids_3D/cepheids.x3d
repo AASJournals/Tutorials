@@ -4,7 +4,7 @@
   <head>
     <meta name="filename" content="cepheids.x3d"/>
     <meta name="generator" content="Visualization ToolKit X3D exporter v0.9.1"/>
-    <meta name="numberofelements" content="1"/>
+    <meta name="numberofelements" content="2"/>
   </head>
   <Scene>
     <Background skyColor="0.5 0.5 0.5"/>
@@ -19958,11 +19958,43 @@
           </IndexedFaceSet>
         </Shape>
       </Transform>
+      <Transform translation="0 0 0" rotation="0 0 1 -0" scale="1 1 1">
+        <Shape>
+          <Appearance>
+            <Material ambientIntensity="0" emissiveColor="0 0 0" diffuseColor="0 0 0" specularColor="0 0 0" shininess="0.0078125" transparency="0"/>
+          </Appearance>
+          <IndexedLineSet colorPerVertex="false" coordIndex="
+            0 1 -1 
+            2 3 -1 
+            4 5 -1 
+            6 7 -1 
+            0 2 -1 
+            1 3 -1 
+            4 6 -1 
+            5 7 -1 
+            0 4 -1 
+            1 5 -1 
+            2 6 -1 
+            3 7 -1 
+            ">
+            <Coordinate DEF="VTKcoordinates0001" point="
+              1.73472e-18 -2.77556e-17 -5.55112e-17,
+              1 -2.77556e-17 -5.55112e-17,
+              1.73472e-18 0.5 -5.55112e-17,
+              1 0.5 -5.55112e-17,
+              1.73472e-18 -2.77556e-17 1,
+              1 -2.77556e-17 1,
+              1.73472e-18 0.5 1,
+              1 0.5 1,
+              "/>
+          </IndexedLineSet>
+        </Shape>
+      </Transform>
     </Transform>
     <ProximitySensor DEF="PROX_LABEL" size="1e+06 1e+06 1e+06"/>
     <Collision enabled="false">
       <Transform DEF="TRANS_LABEL">
-        <Transform translation="-0.499642 -0.498031 -2" scale="0.002 0.002 0.002">
+        <Transform translation="-0.499404 -0.496604 -2" scale="0.002 0.002 0.002">
           <Shape>
             <Appearance>
               <Material diffuseColor="0 0 1" emissiveColor="1 1 1"/>
