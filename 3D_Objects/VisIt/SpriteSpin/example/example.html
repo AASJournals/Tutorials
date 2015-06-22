@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Noise</title>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="spritespin.min.js"></script>
+  </head>
+  <body>
+    <div class="spritespin"></div>
+    <script type="text/javascript">
+      $('.spritespin').spritespin({
+         source: SpriteSpin.sourceArray('noise_{lane}_{frame}.jpeg', { lane: [0,12], frame: [0,23], digits: 2}) ,
+         width: 512,
+         height: 512,
+         frameTime: 100,
+         frames:24,
+         lanes: 13,
+         frame: 12,
+         lane: 6,
+         sense: 1,
+         senseLanes: -2,
+         animate: false,
+         behavior: 'drag',
+         scrollThreshold: 40,
+      });
+    </script>
+  </body>
+</html>
