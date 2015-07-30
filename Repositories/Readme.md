@@ -34,7 +34,7 @@
 
     Corrales, L. 2015a, dust: Calculate the intensity of dust scattering halos in the X-ray, v1.0, Zenodo, doi:10.5281/zenodo.15991
 
-  #### Tips, Tricks
+#### Tips, Tricks
   
   There are a number of points to make about the conversion of this bibtex entry into a formal reference in an AAS Journal article. First, our current bibtex style file, [`apj.bst`](ads.harvard.edu/pubs/bibtex/astronat/apj/apj.bst), does not recognize all of these fields when formatting an `@misc` entry during LaTeX/bibtex compilation. A future release of AASTeX with a modified apj.bst for software/data citations is forthcoming. Thus at the present time, some manual repair by authors of software/data references will be necessary.
 
