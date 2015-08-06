@@ -59,7 +59,7 @@
 
 ## Using 3rd party Data/Code repositories
 
-There are a number of options for placing you data or software in trusted third party repositories and linking them to AAS Journal articles. At present, the AAS does not have contractual relationships with any of these, but consider them to be valid archives for your use. There are also institutional repositories that preserve such data products and issue DOI data links, so you might contact your institution's librarian to see if they provide a similar service. 
+There are a number of options for placing you data or software in trusted third party repositories and linking them to AAS Journal articles. At present, the AAS does not have contractual relationships with any of these, but consider them to be valid archives for your use. We do maintain curated collections in a number of these repositories; you will find those links in the comparison table below. There are also institutional repositories that preserve such data products and issue DOI data links, so you might contact your institution's librarian to see if they provide a similar service. 
 
 90% of the effort in creating a dataset in one of these data repositories involves drag and dropping files into a web based workflow, and filling out metadata fields. We estimate that it should take about 30 min of work not withstanding upload times.  The AAS Data editors are happy to assist you with any questions you have about these repositories or help solve problems that you experience when working with them. Please contact the [Data Editors helpdesk](mailto:data-editors@aas.org).
 
@@ -73,7 +73,7 @@ All of these register DataCite DOIs for records. A "record" varies somewhat in i
 |------------|----------|----------|----------|
 | **What is a DOI record?** | A DOI record points to a group of files uploaded as a batch; a record assigned 1 of 8 "types" regardless of the content of the batch. | Each uploaded “file” can have 1 of 8 types, and files can be grouped into *Filesets*; any of these (files or filesets) can be assigned a DOI. | A DOI record points to a group files called a Dataverse *Dataset*. |
 | **Record Types** | Publication (subtypes), Poster, Presentation, Dataset (Table), Image (subtypes), Video/Audio, Software, Lesson | Figure, Media, Dataset (Table), Poster, Paper, Thesis, Code, Presentation, (Fileset for groups of files) | None |
-| **Grouping of "data objects” or other curation vehicle** | Communities | Projects | Dataverses |
+| **Collections of "data objects” or other curation vehicle** | Communities | Projects | Dataverses |
 | **Other features** | Github/Zenodo [Making Your Code Citable](https://guides.github.com/activities/citable-code/); PDF rendering; | Nice previews (csv, markdown, FITS, etc); | File metadata extraction; domain specific metadata;  |
 | **Individual File URLs** | Yes, human readable file links: `https://zenodo.org/record/<record#>/files/filename.ext` | Individual “big number” filenames; not human recognizable: `http://figshare.com/download/file/#######` | Not really; API can expose file “IDs” but not filenames. |
 | **Record description** | Limited HTML; Lists but no tables (stripped out). | Tables can be pasted in; unclear what are the full HTML limits of the “description” field; all files and filesets have individual descriptions. | Limited HTML (permitted tags listed); Lists but no tables. |
@@ -87,3 +87,4 @@ All of these register DataCite DOIs for records. A "record" varies somewhat in i
 | **Upload options** | Desktop; Dropbox; Github | Desktop; Github | Desktop; Dropbox |
 | **Who are they? Who pays for it?** | CERN | Digital Science; Startup | Harvard University (or similar host) |
 | **Pricing/Policies/FAQ** | https://zenodo.org/faq | http://figshare.com/pricing | http://best-practices.dataverse.org/harvard-policies |
+| **AAS Journals Collection** | Zenodo **AAS** Community [Deposit Link](https://zenodo.org/deposit/?c=aas) | | AAS Journals [Dataverse](https://dataverse.harvard.edu/dataverse/aas) | 
