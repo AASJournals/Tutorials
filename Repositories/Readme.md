@@ -34,7 +34,13 @@
 
     Corrales, L. 2015a, dust: Calculate the intensity of dust scattering halos in the X-ray, v1.0, Zenodo, doi:10.5281/zenodo.15991
 
-#### Tips, Tricks
+#### bibtex Tips, Tricks
+  
+  You can quickly get a bibtex entry for a DOI issued by any of the third party repositories listed below with this simple command (entering your own DOI of course):
+  
+  ```Shell
+  curl -LH "Accept: application/x-bibtex" http://dx.doi.org/10.5555/12345678
+  ```
   
   There are a number of points to make about the conversion of this bibtex entry into a formal reference in an AAS Journal article. First, our current bibtex style file, [`apj.bst`](ads.harvard.edu/pubs/bibtex/astronat/apj/apj.bst), does not recognize all of these fields when formatting an `@misc` entry during LaTeX/bibtex compilation. A future release of AASTeX with a modified apj.bst for software/data citations is forthcoming. Thus at the present time, some manual repair by authors of software/data references will be necessary.
 
