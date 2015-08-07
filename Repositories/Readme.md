@@ -36,7 +36,7 @@
 
 #### bibtex Tips, Tricks
   
-  You can quickly get a bibtex entry for a DOI issued by any of the third party repositories listed below with this simple command (entering your own DOI of course):
+  You can quickly get a bibtex entry for a DOI issued by any of the third party repositories listed below with this simple command (Thanks [CrossRef!](http://labs.crossref.org/resolving-citations-we-dont-need-no-stinkin-parser/)):
   
   ```Shell
   curl -LH "Accept: application/x-bibtex" http://dx.doi.org/10.5555/12345678
