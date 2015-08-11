@@ -59,7 +59,7 @@
 
   When inserting citations into your manuscript, you would use the standard natbib, `\citet`, `\citep/`, etc markup used for all other references. However, unlike books or journal articles that are effectively static and unchanging after publication, software and possibly data *evolve* forward, improving by fixing bugs, revising reduction algorithms, etc. If you are referencing a persistent copy of a non-static object and wish to alert the reader as to where the non-static **current** version of that research object is stored, then use the parenthetical markup:
 
-    \citet[][See also \url{https://github.com/eblur/dust}]{lia_corrales_2015_15991}
+    \citet[][Codebase: \url{https://github.com/eblur/dust}]{lia_corrales_2015_15991}
 
   Again, the `\url` used here is the one imported from \hyperref and not the one from AASTeX v5.2. Again, this LaTeX markup may be rendered unnecessary by future versions of AASTeX and apj.bst that properly carry the original non-static software/data repository along as part of the final citation reference.
 
