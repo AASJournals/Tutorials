@@ -89,7 +89,7 @@ All of these register DataCite DOIs for records. A "record" varies somewhat in i
 | **File Level Metadata?** | None | All records have same fields (filesets or individual files) | Descriptions; Tagging (User assigned) |
 | **Semantics?** | Good relational related identifier schema | Related links (No semantics or formal encoding) | Related Publications (No semantics; encoded by indentifer type, e.g., DOI, arXiv,) |
 | **Licensing?** | Pretty much any option possible for the record. | CC-BY for filesets; CC0 for files in filesets. | CC0 or custom assigned terms of use. |
-| **Embargo?** | Open, Embargo, Restricted, Closed, Not-submitted | Draft or nah.  | User permissions model; file level restrictions; |
+| **Embargo?** | Open, Embargo, Restricted, Closed, Not-submitted | Embargo, Confidential | User permissions model; file level restrictions; |
 | **Upload options** | Desktop; Dropbox; Github | Desktop; Github | Desktop; Dropbox |
 | **Who are they? Who pays for it?** | CERN | Digital Science; Startup | Harvard University (or similar host) |
 | **Pricing/Policies/FAQ** | https://zenodo.org/faq | http://figshare.com/pricing | http://best-practices.dataverse.org/harvard-policies |
