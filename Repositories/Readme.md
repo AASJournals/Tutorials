@@ -83,8 +83,8 @@ All of these register DataCite DOIs for records. A "record" varies somewhat in i
 | **Other features** | Github/Zenodo [Making Your Code Citable](https://guides.github.com/activities/citable-code/); PDF rendering; | Nice previews (csv, markdown, FITS, etc); | File metadata extraction; domain specific metadata;  |
 | **Individual File URLs** | Yes, human readable file links: `https://zenodo.org/record/<record#>/files/filename.ext` | Individual “big number” filenames; not human recognizable: `http://figshare.com/download/file/#######` | Not really; API can expose file “IDs” but not filenames. |
 | **Record description** | Limited HTML; Lists but no tables (stripped out). | Tables can be pasted in; unclear what are the full HTML limits of the “description” field; all files and filesets have individual descriptions. | Limited HTML (permitted tags listed); Lists but no tables. |
-| **File size limit** | 2 Gb | 256 Mb | 2 Gb |
-| **Record Limit** | Unlimited? | 1Gb “free” then $ | Unlimited? |
+| **File size limit** | 2 Gb | 5 Gb | 2 Gb |
+| **Record Limit** | Unlimited? | 20 Gb “free, private” then $ | Unlimited? |
 | **Metadata** | Rich | Limited | Rich++ |
 | **File Level Metadata?** | None | All records have same fields (filesets or individual files) | Descriptions; Tagging (User assigned) |
 | **Semantics?** | Good relational related identifier schema | Related links (No semantics or formal encoding) | Related Publications (No semantics; encoded by indentifer type, e.g., DOI, arXiv,) |
