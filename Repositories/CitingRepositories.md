@@ -1,5 +1,5 @@
 
-This tutorial details how to cite repositories in your manuscript. It documents the acquisition of repository metadata and high level requirements for the final reference, as well as tips for constructing bibtex and LaTeX bibliographies. Finally, it provides suggestions on how the inline citation should be constructed.
+This tutorial details how to cite repositories in your manuscript. The AAS Journals now recommend that content related to published manuscripts be archived in persistent repositories (See our parallel document, [Using Repositories](UsingRepositories.md)). This tutorial documents the acquisition of repository metadata and high level requirements for the final reference, as well as tips for constructing bibtex and LaTeX bibliographies. Finally, it provides suggestions on how the inline citation should be constructed.
 
 ## Repository Citations
 

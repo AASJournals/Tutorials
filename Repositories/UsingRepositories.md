@@ -1,4 +1,4 @@
-AAS Journals strongly encourage authors to place data or software products related to an article into a persistent repository linked to the main journal article by a [DOI][9f8a762d] and formally cited in the main reference section of a submitted manuscript. This is a change from our past use of supplementary tar.gz files to append various types of article related material. Two articles that might aide your decisions about archiving data/sofware include: "Ten Simple Rules for the Care and Feeding of Scientific Data [(10.1371/journal.pcbi.1003542)](http://dx.doi.org/10.1371/journal.pcbi.1003542)" and "Achieving human and machine accessibility of cited data in scholarly publications [(10.7717/peerj-cs.1)](https://dx.doi.org/10.7717/peerj-cs.1)". Instructions for citing these digital objects in the main references of an AAS Journal manuscript is given in "[Citing Repositories][7c9b06c7]."
+AAS Journals strongly encourage authors to place data or software products related to an article into a persistent repository linked to the main journal article by a [DOI][9f8a762d] and formally cited in the main reference section of a submitted manuscript. This is a change from our past use of supplementary tar.gz files to append various types of article related material. Two articles that might aide your decisions about archiving data/sofware include: "Ten Simple Rules for the Care and Feeding of Scientific Data [(10.1371/journal.pcbi.1003542)](http://dx.doi.org/10.1371/journal.pcbi.1003542)" and "Achieving human and machine accessibility of cited data in scholarly publications [(10.7717/peerj-cs.1)](https://dx.doi.org/10.7717/peerj-cs.1)". Instructions for citing these digital objects in the main references of an AAS Journal manuscript are provided in "[Citing Repositories][7c9b06c7]."
 
 # Article Related Content
 There are many types of article related content that are best served by archiving them in persistent repositories. These include:
@@ -8,9 +8,9 @@ There are many types of article related content that are best served by archivin
 - Reduced observational data, e.g., FITS images;
 - Large computational or visualization datasets.
 
-Individual repositories offer better search, discovery, and access mechanisms for these types of data products than the extant practice of burying them in supplementary materials. Over the past few years a number of open repositories affiliated with long lived institutions have come into existence, accepting a wide array of materials with larger storage sizes than currently allowed by the Journals.
+Individual repositories offer better search, discovery, and access mechanisms for these types of data products than the extant practice of burying them in an article's supplementary materials. Over the past few years a number of open repositories affiliated with long lived institutions have come into existence, accepting a wide array of materials with larger storage sizes than currently allowed by the Journals. We now recommend authors use these services for their related content.
 
-The following types of materials are considered central to the final article and should continue to be submitted with the manuscript:
+The following types of data materials are considered central to the final article and should continue to be submitted with the manuscript:
 - Tables of results, e.g., catalogs;
 - Movies, audio recordings, or other animations;
 - Compendium or atlas of web based (8 bit) images, e.g., "Figure Sets";
