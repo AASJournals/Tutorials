@@ -1,7 +1,7 @@
-AAS Journals strongly encourage authors to place data or software products related to an article into a persistent repository linked to the main journal article by a [DOI][9f8a762d] and formally cited in the main reference section of a submitted manuscript. This is a change from our past use of supplementary tar.gz files to append various types of article related material. Instructions for listing these digital objects in the main references of an AAS Journal manuscript is given in "[Citing Repositories][7c9b06c7]."
+AAS Journals strongly encourage authors to place data or software products related to an article into a persistent repository linked to the main journal article by a [DOI][9f8a762d] and formally cited in the main reference section of a submitted manuscript. This is a change from our past use of supplementary tar.gz files to append various types of article related material. Two articles that might aide your decisions about archiving data/sofware include: "Ten Simple Rules for the Care and Feeding of Scientific Data [(10.1371/journal.pcbi.1003542)](http://dx.doi.org/10.1371/journal.pcbi.1003542)" and "Achieving human and machine accessibility of cited data in scholarly publications [(10.7717/peerj-cs.1)](https://dx.doi.org/10.7717/peerj-cs.1)". Instructions for citing these digital objects in the main references of an AAS Journal manuscript is given in "[Citing Repositories][7c9b06c7]."
 
 # Article Related Content
-There are many types of article related content that are better served by archiving them in persistent repositories. These include:
+There are many types of article related content that are best served by archiving them in persistent repositories. These include:
 - Reusable software packages created as a product of the research presented in the manuscript;
 - Software scripts for the replication of analysis or figures or data presented in a manuscript; 
 - Software parameter and output files;
@@ -45,7 +45,7 @@ All of these register DataCite DOIs for records. It is important to note that a 
 The AAS Journals maintain curated ''collections'' in  each of these generic repositories; you will find those collection links in the comparison table below. A curated collection means that your dataset will appear collated with other datasets from AAS Journals, which helps readers find related content and helps the Editorial team review and suggest metadata improvements to linked datasets.
 
 |   | [Zenodo](https://zenodo.org/) | [figshare](http://figshare.com/) | [Dataverse](https://dataverse.harvard.edu/) |
-|------------|----------|----------|----------|
+|---|---|---|---|
 | **What is a DOI record?** | A DOI record points to a group of files uploaded as a batch; a record assigned 1 of 8 "types" regardless of the content of the batch. | Each uploaded “file” can have 1 of 8 types, and files can be grouped into *Filesets*; any of these (files or filesets) can be assigned a DOI. | A DOI record points to a group files called a Dataverse *Dataset*. |
 | **Record Types** | Publication (subtypes), Poster, Presentation, Dataset (Table), Image (subtypes), Video/Audio, Software, Lesson | Figure, Media, Dataset (Table), Poster, Paper, Thesis, Code, Presentation, (Fileset for groups of files) | None |
 | **Collections of "data objects” or other curation vehicle** | Communities | Projects | Dataverses |
