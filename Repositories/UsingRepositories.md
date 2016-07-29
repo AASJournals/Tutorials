@@ -54,7 +54,7 @@ The AAS Journals maintain curated ''collections'' in each of these generic repos
 Curation is a critical part of publishing digital objects. The amount of effort you put into correctly describing the data or code you've preserved directly affects its discovery and reuse. The AAS Journals request that you focus on 4 specific tasks when curating your data: authorship, licensing, community, and linking. 
 
 #### Authorship
-Please ensure that the authorship for your repository matches what you want the authorship of the data or code to actually be. Sometimes a piece of code will be just yours and sometimes it should probably match the authorship of the paper. Unfortunately workflows like, Zenodo+Github, don't guess particularly well, and choose only the repository owner by default.  
+Please ensure that the authorship for your repository matches what you want the authorship of the data or code to actually be. Sometimes a piece of code will be just yours, and in other cases it is born out of a collaboration; sometimes the repository authoring should match the authorship of the corresponding paper. Unfortunately workflows like, Zenodo+Github, can only guess contributor names based on GitHub metadata, or can choose only the repository owner by default. In the example below we created an organizational user as the lead author, but please do not include the AAS Journals Team in your author list. 
 
 ![Screen shot of authorship metadata fields in Zenodo. Be certain that your authorship list is complete and meaningfully ordered.](img/zenodo_authorship.png "Authorship Metadata Fields in Zenodo")
 
@@ -64,12 +64,12 @@ It is critical to always license the objects you share for reuse. All rights are
 ![Screen shot of licensing metadata fields in Zenodo. You should always license your shared material. Please ensure the Zenodo license matches the license you've chosen for this release. ](img/zenodo_license.png "Licensing Metadata Fields in Zenodo")
 
 #### Communities
-You may want to list the data or code in the AAS Journals  "Community". This is something the AAS Journals are doing to raise awareness of codes published in our Journals. It is as simple as submitting the preserved object to a community. 
+You may want to list the data or code in the AAS Journals "Community". This is something the AAS Journals are doing to raise awareness of codes published in our Journals. It is as simple as submitting the preserved object to a community when you are creating it. 
 
 ![Screen shot of Communities fields in Zenodo. Adding your data or code to a Community can increase its discoverability. ](img/zenodo_communities.png "Communities Metadata Fields in Zenodo")
 
 #### Relationship to the Final Article
-This is the section you will update once your manuscript is finally published. If you look at this section today, then you will see that the first entry establishes the relationship between the github repository and this Zenodo archive. That one should be kept unchanged. Once your manuscript is published you should add a new field, entering the ApJ article "DOI" as a Related Identifier. The proper semantic relationship in this case is "is supplemented by this upload" just like the GithHub repo. Once you've added this material it will appear on the main landing page for the Zenodo entry. 
+This is the section you will update once your manuscript is finally published. If you look at this section today, then you will see that the first entry establishes the relationship between the github repository and this Zenodo archive. That one should be kept unchanged. Once your manuscript is published you should add a new field, entering the ApJ article "DOI" as a Related Identifier. The proper semantic relationship in this case is "is supplemented by this upload". Once you've added this material it will appear on the main landing page for the Zenodo entry. There are other semantic relationships you could choose depending upon the types of links you add to your repository object. 
 
 ![Screen shot of Related Identifiers fields in Zenodo. Related Identifiers allow you to associate your data object to the final paper as a supplement or establish how it is cited in a subsequent article.](img/zenodo_relatedIds.png "Related Identifiers Metadata Fields in Zenodo")
 
