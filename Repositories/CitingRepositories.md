@@ -30,7 +30,7 @@ This tutorial details how to cite repositories in your manuscript. The AAS Journ
   You can quickly get a BibTeX entry for a DOI issued by any of the third party repositories listed below with this simple command (Thanks [CrossRef!](http://labs.crossref.org/resolving-citations-we-dont-need-no-stinkin-parser/)):
   
   ```Shell
-  curl -LH "Accept: application/x-BibTeX" http://dx.doi.org/10.5555/12345678
+  curl -LH "Accept: application/x-bibtex" http://dx.doi.org/10.5555/12345678
   ```
   
   In addition, any DataCite DOI has a human readable metadata page associated with it that is accessible through the URL `http://data.datacite.org/<doi>`, e.g., `http://data.datacite.org/10.5281/zenodo.15991`. From here you can download the reference in RIS or BibTeX formats.
@@ -39,9 +39,9 @@ This tutorial details how to cite repositories in your manuscript. The AAS Journ
 
   Second, for software/data references, you can consider the following tips or advice about these BibTeX fields and how they translate to a reference in an AAS Journal article: 
 
-  - **{author*}** the author field should been formatted to match journal style: last name, first initial, etc. The current [`apj.bst`](ads.harvard.edu/pubs/BibTeX/astronat/apj/apj.bst) does this correctly. 
-  - **{version^}** The outdated `apj.bst` does not pick up the version BibTeX key, and you many have to insert it manually into your final reference. This field may or may not even exist for your data/code repository and data object. For example, there is no versioning in the Zenodo archive (yet), requiring you to carry version along manually.
-  - **{publisher|howpublished~}** Please use the `{publisher}` key; you may have to add it manually as some repositories do not by default provide BibTeX with this key entered (e.g., Zenodo). Note you can "trick" BibTeX to use the `{howpublished}` key for the publisher and avoid manually fixing things, but this is not recommended as the new `aasjournal.bst` file will correctly parse the `{publisher}` BibTeX key. 
+  - **{author*}** the author field should been formatted to match journal style: last name, first initial, etc. The current [`apj.bst`](http://ads.harvard.edu/pubs/bibtex/astronat/apj/apj.bst) does this correctly, as does the newest [`aasjournal.bst`](http://journals.aas.org/authors/aastex/aasjournal.bst).
+  - **{version^}** The outdated `apj.bst` does not pick up the version BibTeX key, and you many have to insert it manually into your final reference. This field may or may not even exist for your data/code repository or data object. For example, there is no versioning between the Zenodo DOIs (yet), requiring you to carry version along manually.
+  - **{publisher|howpublished~}** Please use the `{publisher}` key; you may have to add it manually as some repositories do not by default provide BibTeX with this key entered (e.g., Zenodo). It is not best practice to rely on information semantically encoded in the DOI string. Note you can "trick" BibTeX to use the `{howpublished}` key for the publisher and avoid manually fixing things, but this is not recommended as the new `aasjournal.bst` file will correctly parse the `{publisher}` BibTeX key. 
   - **{prefix}:{identifier#}** While in the majority of cases the "prefix" of the data/code persistent identifier will be a "doi", we reserve the generic model for edge cases, including "hdl", "arXiv", "ark", "purl", "ivoa", "abs", etc. If this were purely a "DOI" field then formal DataCite recommendations include listing the full URI with scheme (e.g., http), host (e.g., dx.doi.org) and path (e.g., /10.5281/zenodo.15991). This format may be adjusted going forward if the `\url` BibTeX key consistently reflects the full URI for all data/code repositories.
 
   In summary, it is important to remember that some of the fields listed above are either not provided by the archives ("publisher") or are listed in the BibTeX but incorrectly recognized and encoded by the BibTeX program using older BibTeX style files. 
