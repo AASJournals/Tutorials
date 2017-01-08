@@ -2,7 +2,7 @@
 
 AAS Journals strongly encourage authors to place data or software products related to an article into a persistent repository linked to the main journal article by a [DOI][9f8a762d]. This is a change from our past use of supplementary tar.gz files to append various types of article related material. This tutorial describes the processes for choosing a repository and curating digital objects in those repositories. 
 
-Two articles that might aide your decisions about archiving data/sofware include: **"Ten Simple Rules for the Care and Feeding of Scientific Data**" [(10.1371/journal.pcbi.1003542)](http://dx.doi.org/10.1371/journal.pcbi.1003542)" and **"Achieving human and machine accessibility of cited data in scholarly publications"** [(10.7717/peerj-cs.1)](https://dx.doi.org/10.7717/peerj-cs.1)". Please note that depositing your data objects is only the first step to making these materials useful for your reader.   
+Two articles that might aide your decisions about archiving data/software include: **"Ten Simple Rules for the Care and Feeding of Scientific Data**" [(10.1371/journal.pcbi.1003542)](http://dx.doi.org/10.1371/journal.pcbi.1003542)" and **"Achieving human and machine accessibility of cited data in scholarly publications"** [(10.7717/peerj-cs.1)](https://dx.doi.org/10.7717/peerj-cs.1)". Please note that depositing your data objects is only the first step to making these materials useful for your reader.   
 
 Instructions for mentioning and citing these digital objects in  an AAS Journal manuscript are provided in "[Citing Repositories][7c9b06c7]."
 
@@ -54,7 +54,7 @@ The AAS Journals maintain curated ''collections'' in each of these generic repos
 Curation is a critical part of publishing digital objects. The amount of effort you put into correctly describing the data or code you've preserved directly affects its discovery and reuse. The AAS Journals request that you focus on 4 specific tasks when curating your data: authorship, licensing, community, and linking. 
 
 #### Authorship
-Please ensure that the authorship for your repository matches what you want the authorship of the data or code to actually be. Sometimes a piece of code will be just yours, and in other cases it is born out of a collaboration; sometimes the repository authoring should match the authorship of the corresponding paper. Unfortunately workflows like, Zenodo+Github, can only guess contributor names based on GitHub metadata, or can choose only the repository owner by default. In the example below we created an organizational user as the lead author, but please do not include the AAS Journals Team in your author list. 
+Please ensure that the authorship for your repository matches what you want the authorship of the data or code to actually be. Sometimes a piece of code will be just yours, and in other cases it is born out of a collaboration; sometimes the repository authoring should match the authorship of the corresponding paper. Unfortunately workflows like "Zenodo+Github" can only guess contributor names based on GitHub metadata, or can choose only the repository owner by default. In the example below we created an organizational user as the lead author, but please do not include the AAS Journals Team in your author list. 
 
 ![Screen shot of authorship metadata fields in Zenodo. Be certain that your authorship list is complete and meaningfully ordered.](img/zenodo_authorship.png "Authorship Metadata Fields in Zenodo")
 
@@ -77,7 +77,7 @@ This is the section you will update once your manuscript is finally published. I
 
 |   | [Zenodo](https://zenodo.org/) | [figshare](http://figshare.com/) | [Dataverse](https://dataverse.harvard.edu/) |
 |---|---|---|---|
-| **What is a DOI record?** | A DOI record points to a group of files uploaded as a batch; a record assigned 1 of 8 "types" regardless of the content of the batch. | Each uploaded “file” can have 1 of 8 types, and files can be grouped into *Filesets*; any of these (files or filesets) can be assigned a DOI. | A DOI record points to a group files called a Dataverse *Dataset*. |
+| **What is a DOI record?** | A DOI record points to a group of files uploaded as a batch; a record is assigned 1 of 8 "types" regardless of the content of the batch. | Each uploaded “file” can have 1 of 8 types, and files can be grouped into *Filesets*; any of these (files or filesets) can be assigned a DOI. | A DOI record points to a group files called a Dataverse *Dataset*. |
 | **Record Types** | Publication (subtypes), Poster, Presentation, Dataset (Table), Image (subtypes), Video/Audio, Software, Lesson | Figure, Media, Dataset (Table), Poster, Paper, Thesis, Code, Presentation, (Fileset for groups of files) | None |
 | **Collections of "data objects” or other curation vehicle** | Communities | Projects | Dataverses |
 | **Other features** | Github/Zenodo [Making Your Code Citable](https://guides.github.com/activities/citable-code/); PDF rendering; | Excellent previews (csv, markdown, FITS, etc); | FITS file metadata extraction; astronomy specific metadata;  |
