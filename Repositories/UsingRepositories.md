@@ -76,9 +76,9 @@ This is the section you will update once your manuscript is finally published. I
 
 ## Repositories Comparison Lookup Table
 
+### **[Zenodo](https://zenodo.org/)**
 
-
-| **[Zenodo](https://zenodo.org/)** |  Features |
+| Feature | Comments |
 |---|---|
 | **What is a DOI record?**     | A DOI record points to a group of files uploaded as a batch; a record assigned 1 of 8 "types" regardless of the content of the batch. | 
 | **Record Types**              | Publication, Poster, Presentation, Dataset, Image, Video/Audio, Software, Lesson |
@@ -102,7 +102,10 @@ This is the section you will update once your manuscript is finally published. I
 | **API information**           | http://developers.zenodo.org/ |
 |   |   |
 |   |   |
-| **[Harvard Dataverse](https://dataverse.harvard.edu/)** |  Features |
+
+### **[Harvard Dataverse](https://dataverse.harvard.edu/)**
+
+| Feature | Comments |
 |---|---|
 | **What is a DOI record?**     | A DOI record points to a group files called a Dataverse *Dataset*. |
 | **Record Types**              | None |
@@ -126,7 +129,10 @@ This is the section you will update once your manuscript is finally published. I
 | **API information**           | http://guides.dataverse.org/en/4.6.1/api/ (generic to all Dataverse installs) |
 |   |   |
 |   |   |
-| **[figshare](http://figshare.com/)** |  Features |
+
+### **[figshare](http://figshare.com/)**
+
+| Feature | Comments |
 |---|---|
 | **What is a DOI record?**     | Each uploaded “file” or fileset can have 1 of N types; files can be grouped into *Collections*; any of these (files or Collections) can be assigned a DOI. | 
 | **Record Types**              | Figure, Media, Code, Dataset (Tables), Poster, Paper, Thesis, Code, Presentation, Fileset (for groups of related files) |
