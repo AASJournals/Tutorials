@@ -18,7 +18,7 @@ This tutorial details how to cite repositories in your manuscript. The AAS Journ
         doi          = {10.5281/zenodo.15991},
         version      = {1.0},
         publisher    = {Zenodo},
-        url          = {http://dx.doi.org/10.5281/zenodo.15991}
+        url          = {https://doi.org/10.5281/zenodo.15991}
         }
   The corresponding reference entry should look like:
 
@@ -30,10 +30,11 @@ This tutorial details how to cite repositories in your manuscript. The AAS Journ
   You can quickly get a BibTeX entry for a DOI issued by any of the third party repositories listed below with this simple command (Thanks [CrossRef!](http://labs.crossref.org/resolving-citations-we-dont-need-no-stinkin-parser/)):
   
   ```Shell
-  curl -LH "Accept: application/x-bibtex" http://dx.doi.org/10.5555/12345678
+  curl -LH "Accept: application/x-bibtex" https://doi.org/10.5555/12345678
   ```
-  
-  In addition, any DataCite DOI has a human readable metadata page associated with it that is accessible through the URL `http://data.datacite.org/<doi>`, e.g., `http://data.datacite.org/10.5281/zenodo.15991`. From here you can download the reference in RIS or BibTeX formats.
+At the moment these BibTeX results can lack the requisite fields, e.g., version. 
+
+  In addition, any DataCite DOI has a human readable metadata page associated with it that is accessible through the URL `https://search.datacite.org/works/<doi>`, e.g., `https://search.datacite.org/works/10.5281/zenodo.15991`. From here you can download the reference in RIS or BibTeX formats.
   
   There are a number of points to make about the conversion of this BibTeX entry into a formal reference in an AAS Journal article. First, the older BibTeX style file, [`apj.bst`](ads.harvard.edu/pubs/BibTeX/astronat/apj/apj.bst), does not recognize all of these fields when formatting an `@misc` entry during LaTeX/BibTeX compilation. A new `aasjournal.bst` style file has been specifically modified to enable this formatting for software/data citations. You can find it at the [AAS Journals website](http://journals.aas.org/authors/aastex.html) or on [GitHub](https://github.com/AASJournals/AASTeX60).
 
@@ -50,15 +51,20 @@ This tutorial details how to cite repositories in your manuscript. The AAS Journ
 
   When inserting citations into your manuscript, you should use the standard natbib, `\citet`, `\citep`, etc markup used for all other references. There are two important nuances about digital object citations. First, unlike books or journal articles that are effectively static and unchanging after publication, software and possibly data *evolve* forward, improving by fixing bugs, revising reduction algorithms, etc. Such objects may have a non-static **current** version of that research object located at a specific URL that the author wishes to alert the reader about. Second, authors may simply want to highlight the digital objects inline to the manuscript so that readers can link directly to the software or data without browsing to the bibliography. 
 
-  We recommend a parenthetical markup to add inline URLs that point to non-static codebases or provide direct links to data:
-   
+  We recommend inline parenthetical or footnote markup to add direct links to non-static codebases or data:
+  
+  ```
+  \citet[][]{lia_corrales_2015_15991}\footnote{Codebase: \url{https://github.com/eblur/dust} }
+  ```
+
   ```  
-  \citet[][Codebase: \url{https://github.com/eblur/dust}]{lia_corrales_2015_15991}
+  \citep[][Codebase: \url{https://github.com/eblur/dust}]{lia_corrales_2015_15991}
   ```
 
   ```
-  \citet[][Dataset: \url{http://doi.org/10.5281/zenodo.15991}]{lia_corrales_2015_15991}
+  \citep[][Dataset: \url{http://doi.org/10.5281/zenodo.15991}]{lia_corrales_2015_15991}
   ```
-
-  This parenthetical style is our current recommended way of dealing with this "dual pointer" problem. Authors may continue to use footnotes to insert non-static or direct data links into their manuscripts according to the writing style that best suites their work. 
+  
+  
+  These styles are our current recommended ways of dealing with this "dual pointer" problem. 
 
