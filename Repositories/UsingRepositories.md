@@ -16,10 +16,11 @@ There are many types of article related content that are best served by archivin
 
 Individual repositories offer better search, discovery, and access mechanisms for these types of data products than the extant practice of burying them in an article's supplementary materials. Over the past few years a number of open repositories affiliated with long lived institutions have come into existence, accepting a wide array of materials with larger storage sizes than currently allowed by the Journals. We now recommend authors use these services for preserving related content.
 
-It is important to remember that other materials are considered central to the final article and **should continue to be submitted with the manuscript:**
+It is important to remember that certain materials are considered central to the final article and **should continue to be submitted with the manuscript.** The Journals consider preservation and association of such material with the final article  impotant and part of our charge in publishing your article(s). Such central, associated content includes:
 - Tables of results, e.g., catalogs;
 - Movies, audio recordings, or other animations;
 - Compendium or atlas of images, e.g., "Figure Sets";
+- Data directly related to a figure, e.g., "Data behind the Figure,";
 - Interactive Figures. 
 
 Currently there are no persistent platforms for author generated websites, e.g., a project website that contains arbitrary custom visualizations of data products. While these are common in astronomy, the act of archiving and preserving them today still involves saving only the low level data objects in persistent repositories. 
@@ -73,27 +74,83 @@ This is the section you will update once your manuscript is finally published. I
 
 ![Screen shot of Related Identifiers fields in Zenodo. Related Identifiers allow you to associate your data object to the final paper as a supplement or establish how it is cited in a subsequent article.](img/zenodo_relatedIds.png "Related Identifiers Metadata Fields in Zenodo")
 
-## Repositories Table
+## Repositories Comparison Lookup Table
 
-|   | [Zenodo](https://zenodo.org/) | [figshare](http://figshare.com/) | [Dataverse](https://dataverse.harvard.edu/) |
-|---|---|---|---|
-| **What is a DOI record?** | A DOI record points to a group of files uploaded as a batch; a record assigned 1 of 8 "types" regardless of the content of the batch. | Each uploaded “file” can have 1 of 8 types, and files can be grouped into *Filesets*; any of these (files or filesets) can be assigned a DOI. | A DOI record points to a group files called a Dataverse *Dataset*. |
-| **Record Types** | Publication (subtypes), Poster, Presentation, Dataset (Table), Image (subtypes), Video/Audio, Software, Lesson | Figure, Media, Dataset (Table), Poster, Paper, Thesis, Code, Presentation, (Fileset for groups of files) | None |
-| **Collections of "data objects” or other curation vehicle** | Communities | Projects | Dataverses |
-| **Other features** | Github/Zenodo [Making Your Code Citable](https://guides.github.com/activities/citable-code/); PDF rendering; | Excellent previews (csv, markdown, FITS, etc); | FITS file metadata extraction; astronomy specific metadata;  |
-| **Individual File URLs** | Yes, human readable file links: `https://zenodo.org/record/<record#>/files/filename.ext` | Individual “big number” filenames; not human recognizable: `http://figshare.com/download/file/#######` | Not really; API can expose file “IDs” but not filenames. |
-| **Record description** | Limited HTML; Lists but no tables (stripped out). | Tables can be pasted in; unclear what are the full HTML limits of the “description” field; all files and filesets have individual descriptions. | Limited HTML (permitted tags listed); Lists but no tables. |
-| **File size limit** | 2 Gb | 5 Gb | 2 Gb |
-| **Record Limit** | Unlimited? | 20 Gb “free, private” then $ | Unlimited? |
-| **Metadata** | Rich | Limited | Rich++ |
-| **File Level Metadata?** | None | All records have same fields (filesets or individual files) | Descriptions; Tagging (User assigned) |
-| **Semantics?** | Good relational related identifier schema | Related links (No semantics or formal encoding) | Related Publications (No semantics; encoded by indentifer type, e.g., DOI, arXiv,) |
-| **Licensing?** | Pretty much any option possible for the record. | CC-BY for filesets; CC0 for files in filesets. | CC0 or custom assigned terms of use. |
-| **Embargo?** | Open, Embargo, Restricted, Closed, Not-submitted | Embargo, Confidential | User permissions model; file level restrictions; |
-| **Upload options** | Desktop; Dropbox; Github | Desktop; Github | Desktop; Dropbox |
-| **Who are they? Who pays for it?** | CERN | Digital Science; Startup | Harvard University (or similar host) |
-| **Pricing/Policies/FAQ** | https://zenodo.org/faq | https://figshare.zendesk.com/hc/en-us | http://best-practices.dataverse.org/harvard-policies |
-| **AAS Journals Collection** | Zenodo **AAS** Community [Deposit Link](https://zenodo.org/deposit/?c=aas) | | AAS Journals [Dataverse](https://dataverse.harvard.edu/dataverse/aas) | 
+
+
+| **[Zenodo](https://zenodo.org/)** |  Features |
+|---|---|
+| **What is a DOI record?**     | A DOI record points to a group of files uploaded as a batch; a record assigned 1 of 8 "types" regardless of the content of the batch. | 
+| **Record Types**              | Publication, Poster, Presentation, Dataset, Image, Video/Audio, Software, Lesson |
+| **Collections of "objects”**  | Communities |
+| **Other features**            | Github/Zenodo [Making Your Code Citable](https://guides.github.com/activities/citable-code/); PDF rendering; pre-reserve DOIs; Concept DOIs |
+| **File size limit**           | <50GB |
+| **Record Limit**              | 50GB total per record (DOI) |
+| **Metadata**                  | Rich |
+| **File Level Metadata?**      | None |
+| **Semantics?**                | Good relational related identifier schema |
+| **Licensing?**                | Pretty much any standard option possible for the record. |
+| **Versioning?**               | Serial file versioning; Metadata edits do not trigger versions; "Concept" DOIs pointing to latest version of record; |
+| **Embargo?**                  | Open, Embargo, Restricted, Closed, Not-submitted |
+| **Upload options**            | Desktop; Github |
+| **Who are they?**             | CERN Library |
+| **Pricing/Policies/FAQ**      | http://help.zenodo.org/ |
+| **AAS Journals Collection**   | Zenodo **AAS** Community [Deposit Link](https://zenodo.org/deposit/?c=aas) | 
+| **Other tips/tricks**         | Watch auto-generated GitHub=>Zenodo metadata; use 'Additional notes' for attribution requirements |
+| **Individual File URLs**      | Yes, human readable file links: `https://zenodo.org/record/<record#>/files/filename.ext` |
+| **Record description**        | Limited HTML; Lists but no tables (stripped out). |
+| **API information**           | http://developers.zenodo.org/ |
+|   |   |
+|   |   |
+| **[Harvard Dataverse](https://dataverse.harvard.edu/)** |  Features |
+|---|---|
+| **What is a DOI record?**     | A DOI record points to a group files called a Dataverse *Dataset*. |
+| **Record Types**              | None |
+| **Collections of "objects”**  | Dataverses |
+| **Other features**            | ORCID support; FITS file metadata extraction; astronomy specific metadata; file level metadata  |
+| **File size limit**           | 2.7 Gb |
+| **Record Limit**              | Unlimited? |
+| **Metadata**                  | Rich++ |
+| **File Level Metadata?**      | Descriptions; Tagging (User assigned) |
+| **Semantics?**                | Related Publications encoded by indentifer type, e.g., DOI, arXiv; no relational semantics |
+| **Licensing?**                | CC0 or custom assigned terms of use. |
+| **Versioning?**               | Serial *internal* versioning; Metadata edits trigger X.Y versions; Only 1 DOI ever minted for any record |
+| **Embargo?**                  | User permissions model; file level restrictions; |
+| **Upload options**            | Desktop; Dropbox |
+| **Who are they?**             | Harvard University |
+| **Pricing/Policies/FAQ**      | http://best-practices.dataverse.org/harvard-policies |
+| **AAS Journals Collection**   | AAS Journals [Dataverse](https://dataverse.harvard.edu/dataverse/aas) | 
+| **Other tips/tricks**         | File tagging can be useful to create subsets of a record ("dataset") |
+| **Individual File URLs**      | Not really; API can expose file “IDs” but not filenames. |
+| **Record description**        | Limited HTML (permitted tags listed); Lists but no tables. |
+| **API information**           | http://guides.dataverse.org/en/4.6.1/api/ (generic to all Dataverse installs) |
+|   |   |
+|   |   |
+| **[figshare](http://figshare.com/)** |  Features |
+|---|---|
+| **What is a DOI record?**     | Each uploaded “file” or fileset can have 1 of N types; files can be grouped into *Collections*; any of these (files or Collections) can be assigned a DOI. | 
+| **Record Types**              | Figure, Media, Code, Dataset (Tables), Poster, Paper, Thesis, Code, Presentation, Fileset (for groups of related files) |
+| **Collections of "objects”**  | Public Collections can have DOI; Private Projects & Collections |
+| **Other features**            | Excellent previews (csv, markdown, FITS, etc); pre-reserve DOI; private links; ORCID support; |
+| **File size limit**           | 5 Gb |
+| **Record Limit**              | Unlimited public data; 20 Gb “free, private” then $ |
+| **Metadata**                  | Limited data model |
+| **File Level Metadata?**      | All records have same limited metadata fields |
+| **Semantics?**                | Related links (No semantics or formal encoding) |
+| **Licensing?**                | Depends on Type and Public/Private data; CC0 for meta/data; various for Code; CC-By for others |
+| **Versioning?**               | Serial file versioning; Metadata edits do not trigger versions; "Concept" DOIs pointing to latest version of record; |
+| **Embargo?**                  | Embargo, Private (w/private links);  |
+| **Upload options**            | Desktop; Desktop Uploader; GitHub;  |
+| **Who are they?**             | Digital Science; Springer-Nature Startup |
+| **Pricing/Policies/FAQ**      | https://support.figshare.com/support/home |
+| **AAS Journals Collection**   | None |
+| **Other tips/tricks**         | Public collections useful for bundling individual DOI'd items; |
+| **Individual File URLs**      | Individual “big number” filenames; not human recognizable: `http://figshare.com/download/file/#######` |
+| **Record description**        | Tables can be pasted in; unclear what are the full HTML limits of the “description” field; all files and filesets have individual descriptions. |
+| **API information**           | https://docs.figshare.com/ |
+|   |   |
+
+
 
 [7c9b06c7]: CitingRepositories.md "Citing"
 [9f8a762d]: https://en.wikipedia.org/wiki/Digital_object_identifier "DOI"
