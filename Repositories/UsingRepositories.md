@@ -34,7 +34,7 @@ Some of these services directly connect to other everyday research tools like Dr
 
 #### Astronomy Specific Repositories
 The following astronomy archives offer data preservation platforms that mint DOIs for specific categories of data. They may or may not be available for your particular project:
-- Canadian Advanced Network for Astronomical Research (CANFAR); http://www.canfar.net/about/; Contact.
+- Canadian Advanced Network for Astronomical Research (CANFAR); http://www.canfar.net/en/docs/digital_object_identifiers/
 
 #### Generic Repositories
 There are a number of open "generic" data repositories that serve all fields from communities around the world:
