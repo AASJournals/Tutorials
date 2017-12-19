@@ -80,25 +80,27 @@ This is the section you will update once your manuscript is finally published. I
 
 | Feature | Comments |
 |---|---|
-| **What is a DOI record?**     | A DOI record points to a group of files uploaded as a batch; a record assigned 1 of 8 "types" regardless of the content of the batch. | 
+| **AAS Journals Collection**   | Zenodo **AAS** Community [Deposit Link](https://zenodo.org/deposit/?c=aas) | 
+| **What is a DOI record?**     | A DOI record points to a group of files uploaded as a batch; a record assigned 1 of 8 "types" regardless of the content of the batch | 
 | **Record Types**              | Publication, Poster, Presentation, Dataset, Image, Video/Audio, Software, Lesson |
 | **Collections of "objects”**  | Communities |
-| **Other features**            | Github/Zenodo [Making Your Code Citable](https://guides.github.com/activities/citable-code/); PDF rendering; pre-reserve DOIs; Concept DOIs |
+| **Other features**            | Github/Zenodo [Making Your Code Citable](https://guides.github.com/activities/citable-code/); PDF rendering; pre-reserve DOIs; versioned and concept DOIs |
 | **File size limit**           | <50GB |
 | **Record Limit**              | 50GB total per record (DOI) |
 | **Metadata**                  | Rich |
 | **File Level Metadata?**      | None |
 | **Semantics?**                | Good relational related identifier schema |
 | **Licensing?**                | Pretty much any standard option possible for the record. |
-| **Versioning?**               | Serial file versioning; Metadata edits do not trigger versions; "Concept" DOIs pointing to latest version of record; |
+| **Versioning?**               | Serial file versioning; Metadata edits do not trigger versions; "Concept" DOIs pointing to latest version of record; always version and use semantic versioning |
 | **Embargo?**                  | Open, Embargo, Restricted, Closed, Not-submitted |
+| **Record description**        | Limited HTML; Lists but no tables (stripped out) |
+| **Individual File URLs**      | Yes, human readable file links: `https://zenodo.org/record/<record#>/files/filename.ext` |
 | **Upload options**            | Desktop; Github |
 | **Who are they?**             | CERN Library |
 | **Pricing/Policies/FAQ**      | http://help.zenodo.org/ |
-| **AAS Journals Collection**   | Zenodo **AAS** Community [Deposit Link](https://zenodo.org/deposit/?c=aas) | 
-| **Other tips/tricks**         | Watch auto-generated GitHub=>Zenodo metadata; use 'Additional notes' for attribution requirements |
-| **Individual File URLs**      | Yes, human readable file links: `https://zenodo.org/record/<record#>/files/filename.ext` |
-| **Record description**        | Limited HTML; Lists but no tables (stripped out). |
+| **Citation Policy**           | See recommended citation on individual record landing page |
+| **Preservation Policy**       | http://about.zenodo.org/policies/ |
+| **Other tips/tricks**         | Watch auto-generated GitHub=>Zenodo metadata; use 'Additional notes' for attribution requirements; use semantic versioning for version field |
 | **API information**           | http://developers.zenodo.org/ |
 |   |   |
 |   |   |
@@ -108,19 +110,19 @@ This is the section you will update once your manuscript is finally published. I
 | Feature | Comments |
 |---|---|
 | **AAS Journals Collection**   | AAS Journals [Dataverse](https://dataverse.harvard.edu/dataverse/aas) | 
-| **What is a DOI record?**     | A DOI record points to a group files called a Dataverse *Dataset*. |
+| **What is a DOI record?**     | A DOI record points to a group files called a Dataverse *Dataset* |
 | **Collections of "objects”**  | Dataverses |
 | **Record Types**              | Look for "Kind of Data" (Uncontrolled vocabulary) |
-| **Other features**            | ORCID support; FITS file metadata extraction; astronomy specific metadata; file level metadata  |
+| **Other features**            | ORCID support; FITS file metadata extraction; astronomy specific metadata; file level metadata |
 | **File size limit**           | 2.7 Gb |
 | **Record Limit**              | Unlimited though large numbers of files in a Dataset can cause usability issues |
 | **Metadata**                  | Rich++ |
 | **File Level Metadata?**      | Descriptions; Tagging (User assigned) |
 | **Semantics?**                | Related Publications encoded by indentifer type, e.g., DOI, arXiv; no relational semantics |
-| **Licensing?**                | CC0 or custom assigned terms of use. |
+| **Licensing?**                | CC0 or custom assigned terms of use |
 | **Versioning?**               | Serial *internal* versioning; Metadata edits trigger X.Y versions; Only 1 DOI ever minted for any record |
 | **Embargo?**                  | User permissions model; file level restrictions; |
-| **Record description**        | Limited HTML (permitted tags listed); Lists but no tables. |
+| **Record description**        | Limited HTML (permitted tags listed); Lists but no tables |
 | **Individual File URLs**      | Download URLs avaible on file landing pages and via API |
 | **Upload options**            | Desktop; Dropbox |
 | **Who are they?**             | Harvard University |
@@ -137,7 +139,7 @@ This is the section you will update once your manuscript is finally published. I
 | Feature | Comments |
 |---|---|
 | **AAS Journals Collection**   | None |
-| **What is a DOI record?**     | Each uploaded “file” or fileset can have 1 of N types; files can be grouped into *Collections*; any of these (files or Collections) can be assigned a DOI. | 
+| **What is a DOI record?**     | Each uploaded “file” or fileset can have 1 of N types; files can be grouped into *Collections*; any of these (files or Collections) can be assigned a DOI | 
 | **Record Types**              | Figure, Media, Code, Dataset (Tables), Poster, Paper, Thesis, Code, Presentation, Fileset (for groups of related files) |
 | **Collections of "objects”**  | Public Collections can have DOI; Private Projects & Collections |
 | **Other features**            | Excellent previews (csv, markdown, FITS, etc); pre-reserve DOI; private links; ORCID support; |
@@ -149,7 +151,7 @@ This is the section you will update once your manuscript is finally published. I
 | **Licensing?**                | Depends on Type and Public/Private data; CC0 for meta/data; various for Code; CC-By for others |
 | **Versioning?**               | Serial file versioning; Metadata edits do not trigger versions; "Concept" DOIs pointing to latest version of record; |
 | **Embargo?**                  | Embargo, Private (w/private links);  |
-| **Record description**        | Tables can be pasted in; unclear what are the full HTML limits of the “description” field; all files and filesets have individual descriptions. |
+| **Record description**        | Tables can be pasted in; unclear what are the full HTML limits of the “description” field; all files and filesets have individual descriptions |
 | **Individual File URLs**      | Individual “big number” filenames; not human recognizable: `http://figshare.com/download/file/#######` |
 | **Upload options**            | Desktop; Desktop Uploader; GitHub;  |
 | **Who are they?**             | Digital Science; Springer-Nature Startup |
