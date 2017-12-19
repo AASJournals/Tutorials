@@ -107,26 +107,28 @@ This is the section you will update once your manuscript is finally published. I
 
 | Feature | Comments |
 |---|---|
+| **AAS Journals Collection**   | AAS Journals [Dataverse](https://dataverse.harvard.edu/dataverse/aas) | 
 | **What is a DOI record?**     | A DOI record points to a group files called a Dataverse *Dataset*. |
-| **Record Types**              | None |
 | **Collections of "objects”**  | Dataverses |
+| **Record Types**              | Look for "Kind of Data" (Uncontrolled vocabulary) |
 | **Other features**            | ORCID support; FITS file metadata extraction; astronomy specific metadata; file level metadata  |
 | **File size limit**           | 2.7 Gb |
-| **Record Limit**              | Unlimited? |
+| **Record Limit**              | Unlimited though large numbers of files in a Dataset can cause usability issues |
 | **Metadata**                  | Rich++ |
 | **File Level Metadata?**      | Descriptions; Tagging (User assigned) |
 | **Semantics?**                | Related Publications encoded by indentifer type, e.g., DOI, arXiv; no relational semantics |
 | **Licensing?**                | CC0 or custom assigned terms of use. |
 | **Versioning?**               | Serial *internal* versioning; Metadata edits trigger X.Y versions; Only 1 DOI ever minted for any record |
 | **Embargo?**                  | User permissions model; file level restrictions; |
+| **Record description**        | Limited HTML (permitted tags listed); Lists but no tables. |
+| **Individual File URLs**      | Download URLs avaible on file landing pages and via API |
 | **Upload options**            | Desktop; Dropbox |
 | **Who are they?**             | Harvard University |
+| **Citation Policy**           | https://dataverse.org/best-practices/academic-credit |
+| **Preservation Policy**       | https://dataverse.org/best-practices/harvard-dataverse-preservation-policy |
 | **Pricing/Policies/FAQ**      | http://best-practices.dataverse.org/harvard-policies |
-| **AAS Journals Collection**   | AAS Journals [Dataverse](https://dataverse.harvard.edu/dataverse/aas) | 
+| **API information**           | http://guides.dataverse.org/en/latest/api/index.html (generic to all Dataverse installs) |
 | **Other tips/tricks**         | File tagging can be useful to create subsets of a record ("dataset") |
-| **Individual File URLs**      | Not really; API can expose file “IDs” but not filenames. |
-| **Record description**        | Limited HTML (permitted tags listed); Lists but no tables. |
-| **API information**           | http://guides.dataverse.org/en/4.6.1/api/ (generic to all Dataverse installs) |
 |   |   |
 |   |   |
 
