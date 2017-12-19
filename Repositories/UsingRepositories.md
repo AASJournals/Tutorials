@@ -136,6 +136,7 @@ This is the section you will update once your manuscript is finally published. I
 
 | Feature | Comments |
 |---|---|
+| **AAS Journals Collection**   | None |
 | **What is a DOI record?**     | Each uploaded “file” or fileset can have 1 of N types; files can be grouped into *Collections*; any of these (files or Collections) can be assigned a DOI. | 
 | **Record Types**              | Figure, Media, Code, Dataset (Tables), Poster, Paper, Thesis, Code, Presentation, Fileset (for groups of related files) |
 | **Collections of "objects”**  | Public Collections can have DOI; Private Projects & Collections |
@@ -148,13 +149,14 @@ This is the section you will update once your manuscript is finally published. I
 | **Licensing?**                | Depends on Type and Public/Private data; CC0 for meta/data; various for Code; CC-By for others |
 | **Versioning?**               | Serial file versioning; Metadata edits do not trigger versions; "Concept" DOIs pointing to latest version of record; |
 | **Embargo?**                  | Embargo, Private (w/private links);  |
+| **Record description**        | Tables can be pasted in; unclear what are the full HTML limits of the “description” field; all files and filesets have individual descriptions. |
+| **Individual File URLs**      | Individual “big number” filenames; not human recognizable: `http://figshare.com/download/file/#######` |
 | **Upload options**            | Desktop; Desktop Uploader; GitHub;  |
 | **Who are they?**             | Digital Science; Springer-Nature Startup |
+| **Citation Policy**           | https://support.figshare.com/support/solutions search for "cite" |
+| **Preservation Policy**       | https://support.figshare.com/support/solutions search for "backup" |
 | **Pricing/Policies/FAQ**      | https://support.figshare.com/support/home |
-| **AAS Journals Collection**   | None |
 | **Other tips/tricks**         | Public collections useful for bundling individual DOI'd items; |
-| **Individual File URLs**      | Individual “big number” filenames; not human recognizable: `http://figshare.com/download/file/#######` |
-| **Record description**        | Tables can be pasted in; unclear what are the full HTML limits of the “description” field; all files and filesets have individual descriptions. |
 | **API information**           | https://docs.figshare.com/ |
 |   |   |
 
