@@ -2,15 +2,24 @@
 
 AAS Journals strongly encourage authors to place data or software products related to an article into a persistent repository linked to the main journal article by a [DOI][9f8a762d]. This is a change from our past use of supplementary tar.gz files to append various types of article related material. This tutorial describes the processes for choosing a repository and curating digital objects in those repositories. 
 
-Two articles that might aide your decisions about archiving data/sofware include: **"Ten Simple Rules for the Care and Feeding of Scientific Data**" [(10.1371/journal.pcbi.1003542)](http://dx.doi.org/10.1371/journal.pcbi.1003542)" and **"Achieving human and machine accessibility of cited data in scholarly publications"** [(10.7717/peerj-cs.1)](https://dx.doi.org/10.7717/peerj-cs.1)". Please note that depositing your data objects is only the first step to making these materials useful for your reader.   
+Two articles that might aide your decisions about archiving data/sofware include: **"Ten Simple Rules for the Care and Feeding of Scientific Data**" [(doi:10.1371/journal.pcbi.1003542)](https://doi.org/10.1371/journal.pcbi.1003542)" and **"Achieving human and machine accessibility of cited data in scholarly publications"** [(doi:10.7717/peerj-cs.1)](https://doi.org/10.7717/peerj-cs.1)". Please note that depositing your data objects is only the first step to making these materials useful for your reader.   
 
 Instructions for mentioning and citing these digital objects in  an AAS Journal manuscript are provided in "[Citing Repositories][7c9b06c7]."
 
-## Article Related Content
-There are many types of article related content that are best served by archiving them in persistent repositories. These include:
+## Software Repositories
+Per the [AAS Journals' policy on Software](http://journals.aas.org/policy/software.html) we recommend that software used as part of the research process be persistently archived and cited in the final article text and references as a first class citation. This includes code of the classes:
 - Reusable software packages created as a product of the research presented in the manuscript;
-- Software scripts for the replication of analysis or figures or data presented in a manuscript; 
-- Software parameter and output files;
+- Software scripts for the replication of analysis or figures or data presented in a manuscript.
+
+Authors of such content should be careful to make informed, collaborative decisions about which authors and contributors should be included with these software releases. Archived codes should be licensed (*at the archive*) and to the extent relevant for the code, [semantically versioned](https://semver.org/). Additional curation recommendations are given below, and authors may wish to read **"Software citation principles**" [(doi:10.7717/peerj-cs.86)](https://doi.org/10.7717/peerj-cs.86)" for additional analysis of the underlying goals of software citation.
+
+The two most common workflow for authors to persistently archive and cite their codes include:
+- Direct transfer from a tagged and released GitHub repository to Zenodo. This [workflow is documented](https://guides.github.com/activities/citable-code/), and produces a versioned software release. Developers using this workflow should pay very careful attention to matters of authorship as encoded by GitHub/Zenodo workflow and edit the necessary field appropriately.
+- Direct deposit of packaged software (zip/tar.gz) into one of the repositories listed below. This may or may not produce a properly versioned archival software package.
+
+## Article Related Content
+There are many additional types of article related content that are best served by archiving them in persistent repositories. These include:
+- Software parameter and output files, e.g., MCMC chains;
 - Reduced observational data, e.g., FITS images;
 - Large computational or visualization datasets.
 
