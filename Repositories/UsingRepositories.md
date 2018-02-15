@@ -1,4 +1,4 @@
-# Using Persistent Repositories in AAS Journals (AJ/ApJ)
+# Using Persistent Repositories in AAS Journals (AJ/ApJ/ApJL/ApJS/RNAAS)
 
 AAS Journals strongly encourage authors to place data or software products related to an article into a persistent repository linked to the main journal article by a [DOI][9f8a762d]. This is a change from our past use of supplementary tar.gz files to append various types of article related material. This tutorial describes the processes for choosing a repository and curating digital objects in those repositories. 
 
