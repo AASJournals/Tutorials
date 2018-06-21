@@ -8,7 +8,7 @@ This tutorial details how to cite repositories in your manuscript. The AAS Journ
 
     {author*} {year}, {title}, {version^}, {publisher|howpublished~}, {prefix}:{identifier#}
 
-  To illustrate and document this format, we use a corresponding BibTeX entry taken and modified from a [real example](http://dx.doi.org/10.5281/zenodo.15991)). Note that all data/software BibTeX entries should be of the `@misc` type: 
+  To illustrate and document this format, we use a corresponding BibTeX entry taken and modified from a [real example](https://doi.org/10.5281/zenodo.15991)). Note that all data/software BibTeX entries should be of the `@misc` type: 
 
     @misc{lia_corrales_2015_15991,
         author       = {Lia Corrales},
@@ -62,7 +62,7 @@ At the moment these BibTeX results can lack the requisite fields, e.g., version.
   ```
 
   ```
-  \citep[][Dataset: \url{http://doi.org/10.5281/zenodo.15991}]{lia_corrales_2015_15991}
+  \citep[][Dataset: \url{https://doi.org/10.5281/zenodo.15991}]{lia_corrales_2015_15991}
   ```
   
   
