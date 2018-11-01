@@ -7,7 +7,7 @@ Two articles that might aide your decisions about archiving data/sofware include
 Instructions for mentioning and citing these digital objects in  an AAS Journal manuscript are provided in "[Citing Repositories][7c9b06c7]."
 
 ## Software Repositories
-Per the [AAS Journals' policy on Software](http://journals.aas.org/policy/software.html) we recommend that software used as part of the research process be persistently archived and cited in the final article text and references as a first class citation. This includes code of the classes:
+Per the [AAS Journals' policy on Software](https://journals.aas.org/policy-statement-on-software/) we recommend that software used as part of the research process be persistently archived and cited in the final article text and references as a first class citation. This includes code of the classes:
 - Reusable software packages created as a product of the research presented in the manuscript;
 - Software scripts for the replication of analysis or figures or data presented in a manuscript.
 
@@ -44,6 +44,7 @@ Some of these services directly connect to other everyday research tools like Dr
 #### Astronomy Specific Repositories
 The following astronomy archives offer data preservation platforms that mint DOIs for specific categories of data. They may or may not be available for your particular project:
 - Canadian Advanced Network for Astronomical Research (CANFAR); http://www.canfar.net/en/docs/digital_object_identifiers/
+- Mikulski Archive for Space Telescopes (MAST); https://archive.stsci.edu/doi/search/
 
 #### Generic Repositories
 There are a number of open "generic" data repositories that serve all fields from communities around the world:
