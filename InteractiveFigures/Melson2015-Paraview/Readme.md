@@ -1,7 +1,9 @@
-Attribution: Elena Erastova (MPG); Markus Rampp (MPG)
+Source Paper: *Neutrino-Driven Explosion of a 20 Solar-Mass Star in Three Dimensions Enabled by Strange-Quark Contributions to Neutrino–Nucleon Scattering*, Melson et al., 2014, ApJL, [doi:10.1088/2041-8205/808/2/L42](https://doi.org/10.1088/2041-8205/808/2/L42)
+
+Attribution: Elena Erastova (MPG); Markus Rampp (MPG) 
 Contact: August Muench (AAS)  
 Creation Date: 2015-06-12  
-Version Date: 2015-06-22
+Version Date: 2015-06-22 (ReadMe only updated on 2018-02-23)
 
 ## Goal
 

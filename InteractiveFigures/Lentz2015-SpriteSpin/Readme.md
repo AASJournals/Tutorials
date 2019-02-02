@@ -1,7 +1,9 @@
+Source Paper: *Three-Dimensional Core-Collapse Supernova Simulated Using A 15 M ⊙ Progenitor*, Lentz et al., 2014, ApJL, [doi:10.1088/2041-8205/807/2/L31](https://doi.org/10.1088/2041-8205/807/2/L31)
+
 Attribution: Mike Matheson (Oak Ridge National Laboratory)  
 Contact: August Muench (AAS)   
 Creation Date:  2015-06-16  
-Version Date: 2015-06-22  
+Version Date: 2015-06-22 (ReadMe only updated on 2018-02-23)
 
 ## Goal
 
