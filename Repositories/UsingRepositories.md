@@ -2,7 +2,7 @@
 
 AAS Journals strongly encourage authors to place data or software products related to an article into a persistent repository linked to the main journal article by a [DOI][9f8a762d]. This is a change from our past use of supplementary tar.gz files to append various types of article related material. This tutorial describes the processes for choosing a repository and curating digital objects in those repositories. 
 
-Two articles that might aide your decisions about archiving data/software include: **"Ten Simple Rules for the Care and Feeding of Scientific Data**" [(doi:10.1371/journal.pcbi.1003542)](https://doi.org/10.1371/journal.pcbi.1003542)" and **"Achieving human and machine accessibility of cited data in scholarly publications"** [(doi:10.7717/peerj-cs.1)](https://doi.org/10.7717/peerj-cs.1)". Please note that depositing your data objects is only the first step to making these materials useful for your reader.   
+Two articles that might aid your decisions about archiving data/software include: **"Ten Simple Rules for the Care and Feeding of Scientific Data**" [(doi:10.1371/journal.pcbi.1003542)](https://doi.org/10.1371/journal.pcbi.1003542)" and **"Achieving human and machine accessibility of cited data in scholarly publications"** [(doi:10.7717/peerj-cs.1)](https://doi.org/10.7717/peerj-cs.1)". Please note that depositing your data objects is only the first step to making these materials useful for your reader.   
 
 Instructions for mentioning and citing these digital objects in  an AAS Journal manuscript are provided in "[Citing Repositories][7c9b06c7]."
 
