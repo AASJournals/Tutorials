@@ -43,9 +43,9 @@ Some of these services directly connect to other everyday research tools like Dr
 
 #### Astronomy Specific Repositories
 The following astronomy archives offer data preservation platforms that mint DOIs for specific categories of data. They may or may not be available for your particular project:
-- Canadian Advanced Network for Astronomical Research (CANFAR); http://www.canfar.net/en/docs/digital_object_identifiers/  [[List of all data DOIs]](https://search.datacite.org/works?data-center-id=cisti.cadc)
-- China-VO Paper Data Repository; http://paperdata.china-vo.org/ [List of all data DOIs]
-- Mikulski Archive for Space Telescopes (MAST); https://archive.stsci.edu/doi/search/ [[List of all data DOIs]](https://search.datacite.org/works?data-center-id=stsci.mast)
+- [Canadian Advanced Network for Astronomical Research (CANFAR)](http://www.canfar.net/en/docs/digital_object_identifiers/); [List of all [released data DOIs](https://search.datacite.org/works?data-center-id=cisti.cadc)]
+- [China-VO Paper Data Repository](http://paperdata.china-vo.org/); [List of all released data DOIs]
+- [Mikulski Archive for Space Telescopes (MAST)](https://archive.stsci.edu/doi/search/); Contribution [Guidelines for HLSPs](https://archive.stsci.edu/hlsp/hlsp_guidelines/index.html); [List of all [released data DOIs](https://search.datacite.org/works?data-center-id=stsci.mast)]
 
 #### Generic Repositories
 There are a number of open "generic" data repositories that serve all fields from communities around the world:
