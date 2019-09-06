@@ -42,16 +42,18 @@ There are a number of astronomy specific and/or generic repositories that we rec
 Some of these services directly connect to other everyday research tools like Dropbox and Github. Please see the comparison matrix below for more information on these.
 
 #### Astronomy Specific Repositories
-The following astronomy archives offer data preservation platforms that mint DOIs for specific categories of data. They may or may not be available for your particular project:
-- [Canadian Advanced Network for Astronomical Research (CANFAR)](http://www.canfar.net/en/docs/digital_object_identifiers/); [List of all [released data DOIs](https://search.datacite.org/works?data-center-id=cisti.cadc)]
+The following astronomy archives offer data preservation platforms that mint DOIs for specific categories of data. These archives may or may not be available for your particular project:
+- [Caltech/NASA IPAC](https://www.ipac.caltech.edu/dois); [List of all [released data DOIs](https://search.datacite.org/works?data-center-id=caltech.ipacdoi)]
+- [Canadian Advanced Network for Astronomical Research (CANFAR)](https://www.canfar.net/en/docs/digital_object_identifiers/); [List of all [released data DOIs](https://search.datacite.org/works?data-center-id=cisti.cadc)]
 - [China-VO Paper Data Repository](http://paperdata.china-vo.org/); [List of all released data DOIs]
 - [Mikulski Archive for Space Telescopes (MAST)](https://archive.stsci.edu/doi/search/); Contribution [Guidelines for HLSPs](https://archive.stsci.edu/hlsp/hlsp_guidelines/index.html); [List of all [released data DOIs](https://search.datacite.org/works?data-center-id=stsci.mast)]
 
+
 #### Generic Repositories
-There are a number of open "generic" data repositories that serve all fields from communities around the world:
-- [Zenodo][83fcbbbf]
+There are a number of open "generic" data repositories that serve all fields from communities around the world. We curate collections of Journal related data in some of them: 
+- [Zenodo][83fcbbbf]  (Contribute to the [AAS Journals' Zenodo Community](https://zenodo.org/communities/aas/))
+- [Harvard Dataverse][c2dfe768] (Contribute to the [AAS Journals' Dataverse](https://dataverse.harvard.edu/dataverse/aas))
 - [figshare][f93cb6fe]
-- [Harvard Dataverse][c2dfe768]
 
   [83fcbbbf]: https://zenodo.org/ "Zenodo"
   [f93cb6fe]: http://figshare.com/ "figshare"
@@ -63,7 +65,7 @@ The AAS Journals maintain curated ''collections'' in each of these generic repos
 
 ## Curating your Repository
 
-Curation is a critical part of publishing digital objects. The amount of effort you put into correctly describing the data or code you've preserved can immediately affect its discovery and reuse. A laconic abstract or description such as, "Here's the data related to my ApJ paper" does not help the reader understand or use the material shared. In addition to a clear description the AAS Journals request that you focus on 4 specific areas when curating your data: authorship, licensing, community, and linking. Some archives **require** you to carefully edit these fields and will reject the data submission if it is incorrect or incomplete.
+Curation is a critical part of publishing digital objects. Your efforts to correctly describe the data or code you've preserved can immediately affect its discovery and reuse. For instance, a laconic abstract or description such as, "Here's the data related to my ApJ paper" does not help the reader understand or use the material shared. In addition to a clear description the AAS Journals request that you focus on four specific areas when curating your data release: authorship, licensing, community or collection, and linking. Some archives **require** you to carefully edit these fields and will reject the data submission if it is incorrect or incomplete.
 
 #### Authorship
 Please ensure that the author list for your repository corresponds to the appropriate authorship of the data or code. Sometimes a piece of code will be only yours, and in other cases the data is born out of a collaboration. Sometimes the repository authoring should match the authorship of the corresponding paper. Unfortunately automated workflows, e.g., "Zenodo+Github", can only guess contributor names based on GitHub metadata, or can choose only the repository owner as the lead author by default. The precision of these fields is almost always entirely in your hands. 
@@ -78,14 +80,14 @@ It is critical to always license the objects you share for reuse. All rights are
 ![Screen shot of licensing metadata fields in Zenodo. You should always license your shared material. Please ensure the Zenodo license matches the license you've chosen for this release. ](img/zenodo_license.png "Licensing Metadata Fields in Zenodo")
 
 #### Communities
-You may want to list the data or code in the AAS Journals "Community". This is something the AAS Journals manage to raise awareness of data and codes published in our Journals; having your data/code in a Community means that a reader can click once to discover all the objects related to AAS Journals in that repository [(try it for Zenodo)](https://zenodo.org/communities/aas/). You can add your data/code DOI to a community when you are creating it.   
+You may want to list the data or code in the AAS Journals "Community". At the AAS Journals we manage these communities to raise awareness of data and codes published in our Journals; having your data/code in a Community means that a reader can click once to discover all the objects related to AAS Journals in that repository [(try it for Zenodo)](https://zenodo.org/communities/aas/). You can add your data/code DOI to a community when you are creating it.   
 
 ![Screen shot of Communities fields in Zenodo. Adding your data or code to a Community can increase its discoverability. ](img/zenodo_communities.png "Communities Metadata Fields in Zenodo")
 
 #### Relationships to the Final Article
-Most of the metaata for your data/code can be created at the same time you upload your data. Unless the data changes, the metadata can be easly updated after publication to fix errors or make improvements. Besides fixing errors, the one critical post-publication metadata edit you can make is to link your data DOI to the final published article. 
+Most of the metadata for your data/code can be added at the same time you upload your data. Unless the data changes, the metadata can be easly updated after data publication to fix errors or make improvements. Besides fixing errors, one critical post-publication metadata edit you can make is to link your data DOI to the final published article. 
 
-There are many types of links you can make; some are automatic; they all show up on the main landing page of your archived object. Here are some examples. If you uploaded your code from GitHub into Zenodo then you will see an automatically created link between the github repository and your Zenodo archive DOI. If you create a new version of that code (or data) then there will be a "hasVersion" relationship between the DOIs automatically added. These should not be edited. 
+There are many types of links you can add; some are automatically generated by an archive; all such links show up on the main landing page of your archived object and in the metadata store for DOIs. Here are some examples. If you uploaded your code from GitHub into Zenodo then you will see an automatically created link between the github repository and your Zenodo archive DOI. If you create a new version of that code (or data) then there will be a "hasVersion" relationship between the DOIs automatically added. These should not be edited. 
 
 Other kinds of relationships need to be added manually; we focus on those related to the final Journal article. Once your manuscript is published you should add a new field, entering the ApJ article "DOI" as a Related Identifier. You can ask the IOP office for the article DOI as soon your manuscript is transfered to them (post-acceptance). The proper semantic relationship is that your Journal article "is supplemented by" your data upload. We do not suggest exploring any other semantic relationships between your data and the article. While your arXiv preprint does not have its own DOI, you could also add a relationship between its URL and data DOI, e.g., https://arxiv.org/abs/1812.07565 is supplemented by https://doi.org/10.5281/zenodo.2225161. 
 
