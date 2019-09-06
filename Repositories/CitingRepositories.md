@@ -51,20 +51,8 @@ At the moment these BibTeX results can lack the requisite fields, e.g., version.
 
   When inserting citations into your manuscript, you should use the standard natbib, `\citet`, `\citep`, etc markup used for all other references. There are two important nuances about digital object citations. First, unlike books or journal articles that are effectively static and unchanging after publication, software and possibly data *evolve* forward, improving by fixing bugs, revising reduction algorithms, etc. Such objects may have a non-static **current** version of that research object located at a specific URL that the author wishes to alert the reader about. Second, authors may simply want to highlight the digital objects inline to the manuscript so that readers can link directly to the software or data without browsing to the bibliography. 
 
-  We recommend inline parenthetical or footnote markup to add direct links to non-static codebases or data:
-  
-  ```
-  \citet[][]{lia_corrales_2015_15991}\footnote{Codebase: \url{https://github.com/eblur/dust} }
-  ```
+  We recommend inline parenthetical or footnote markup to add direct links to non-static codebases or data. More explicit text, first described on Astrobetter's [Citing Astronomy Software: Inline Text Examples](https://www.astrobetter.com/blog/2019/07/01/citing-astronomy-software-inline-text-examples/), is better than implicit link-only information. The *dust* example given below is reproduced using the example text given at the Astrobetter post:
 
-  ```  
-  \citep[][Codebase: \url{https://github.com/eblur/dust}]{lia_corrales_2015_15991}
-  ```
-
-  ```
-  \citep[][Dataset: \url{https://doi.org/10.5281/zenodo.15991}]{lia_corrales_2015_15991}
-  ```
-  
-  
-  These styles are our current recommended ways of dealing with this "dual pointer" problem. 
-
+```
+The software is available on GitHub\footnote{\texttt{dust} codebase: \url{https://github.com/eblur/dust}.} under a 2-Clause BSD License and version 1.0 is archived in Zenodo \citep{lia_corrales_2015_15991}.
+```
