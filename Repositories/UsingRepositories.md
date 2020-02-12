@@ -7,11 +7,11 @@ Two articles that might aid your decisions about archiving data/software include
 Instructions for mentioning and citing these digital objects in an AAS Journals manuscript are provided in "[Citing Repositories][7c9b06c7]."
 
 ## Software Archiving and Citation
-Per the [AAS Journals' policy on Software](https://journals.aas.org/policy-statement-on-software/) we recommend that software used as part of the research process be persistently **archived** and **cited** in the final article text. In other words, the archived software should referenced as a first class citation in your final bibliography. This includes code of the classes:
+Per the [AAS Journals' policy on Software](https://journals.aas.org/policy-statement-on-software/) we recommend that software used as part of the research process be persistently **archived** and **cited** in the final article text. In other words, the archived software should be referenced as a first class citation in your final bibliography. This includes code of the classes:
 - Reusable software packages created as a product of the research presented in the manuscript;
 - Software scripts for the replication of analysis or figures or data presented in a manuscript.
 
-Authors of such content should be careful to make informed, collaborative decisions about which develooers and contributors should be listed as authors for these cited software releases. Archived codes should be licensed (*at the archive*) and to the extent relevant for the code, [semantically versioned](https://semver.org/). Additional curation recommendations are given below, and authors may wish to read **"Software citation principles**" [(doi:10.7717/peerj-cs.86)](https://doi.org/10.7717/peerj-cs.86)" for additional analysis of the underlying goals of software citation.
+Authors of such content should be careful to make informed, collaborative decisions about which developers and contributors should be listed as authors for these cited software releases. Archived codes should be licensed (*at the archive*) and to the extent relevant for the code, [semantically versioned](https://semver.org/). Additional curation recommendations are given below, and authors may wish to read **"Software citation principles**" [(doi:10.7717/peerj-cs.86)](https://doi.org/10.7717/peerj-cs.86)" for additional analysis of the underlying goals of software citation.
 
 The two most common workflow for authors to persistently archive and cite their codes include:
 - Direct transfer from a tagged and released GitHub repository to Zenodo. This [workflow is documented](https://guides.github.com/activities/citable-code/), and produces a versioned software release. Developers using this workflow should pay very careful attention to matters of authorship as encoded by GitHub/Zenodo workflow and edit the necessary field(s) appropriately.
@@ -25,7 +25,7 @@ There are many (non-software) types of article related content that are best ser
 
 Individual repositories offer better search, discovery, and access mechanisms for these types of related data products than the extant practice of burying them in an article's supplementary materials. Over the past few years a number of open repositories affiliated with long lived institutions have come into existence, accepting a wide array of materials with larger storage sizes than currently allowed by the Journals. We now recommend authors use these services for preserving related content.
 
-It is important to remember that certain materials are considered central to the final article and **should continue to be submitted with the manuscript.** The Journals consider preservation and association of such material with the final article impotant and a vital part of our charge in publishing your article(s). Such central, associated content includes:
+It is important to remember that certain materials are considered central to the final article and **should continue to be submitted with the manuscript.** The Journals consider preservation and association of such material with the final article important and a vital part of our charge in publishing your article(s). Such central, associated content includes:
 - Tables of results, e.g., catalogs;
 - Movies, audio recordings, or other animations;
 - Compendium or atlas of images, e.g., "Figure Sets";
@@ -85,11 +85,11 @@ You may want to list the data or code in the AAS Journals "Community". At the AA
 ![Screen shot of Communities fields in Zenodo. Adding your data or code to a Community can increase its discoverability. ](img/zenodo_communities.png "Communities Metadata Fields in Zenodo")
 
 #### Relationships to the Final Article
-Most of the metadata for your data/code can be added at the same time you upload your data. Unless the data changes, the metadata can be easly updated after data publication to fix errors or make improvements. Besides fixing errors, one critical post-publication metadata edit you can make is to link your data DOI to the final published article. 
+Most of the metadata for your data/code can be added at the same time you upload your data. Unless the data changes, the metadata can be easily updated after data publication to fix errors or make improvements. Besides fixing errors, one critical post-publication metadata edit you can make is to link your data DOI to the final published article. 
 
 There are many types of links you can add; some are automatically generated by an archive; all such links show up on the main landing page of your archived object and in the metadata store for DOIs. Here are some examples. If you uploaded your code from GitHub into Zenodo then you will see an automatically created link between the github repository and your Zenodo archive DOI. If you create a new version of that code (or data) then there will be a "hasVersion" relationship between the DOIs automatically added. These should not be edited. 
 
-Other kinds of relationships need to be added manually; we focus on those related to the final Journal article. Once your manuscript is published you should add a new field, entering the ApJ article "DOI" as a Related Identifier. You can ask the IOP office for the article DOI as soon your manuscript is transfered to them (post-acceptance). The proper semantic relationship is that your Journal article "is supplemented by" your data upload. We do not suggest exploring any other semantic relationships between your data and the article. While your arXiv preprint does not have its own DOI, you could also add a relationship between its URL and data DOI, e.g., https://arxiv.org/abs/1812.07565 is supplemented by https://doi.org/10.5281/zenodo.2225161. 
+Other kinds of relationships need to be added manually; we focus on those related to the final Journal article. Once your manuscript is published you should add a new field, entering the ApJ article "DOI" as a Related Identifier. You can ask the IOP office for the article DOI as soon your manuscript is transferred to them (post-acceptance). The proper semantic relationship is that your Journal article "is supplemented by" your data upload. We do not suggest exploring any other semantic relationships between your data and the article. While your arXiv preprint does not have its own DOI, you could also add a relationship between its URL and data DOI, e.g., https://arxiv.org/abs/1812.07565 is supplemented by https://doi.org/10.5281/zenodo.2225161. 
 
 ![Screen shot of Related Identifiers fields in Zenodo. Related Identifiers allow you to associate your data object to the final paper as a supplement or establish how it is cited in a subsequent article.](img/zenodo_relatedIds.png "Related Identifiers Metadata Fields in Zenodo")
 
@@ -137,12 +137,12 @@ Other kinds of relationships need to be added manually; we focus on those relate
 | **Record Limit**              | Unlimited though large numbers of files in a Dataset can cause usability issues |
 | **Metadata**                  | Rich++ |
 | **File Level Metadata?**      | Descriptions; Tagging (User assigned) |
-| **Semantics?**                | Related Publications encoded by indentifer type, e.g., DOI, arXiv; no relational semantics |
+| **Semantics?**                | Related Publications encoded by identifer type, e.g., DOI, arXiv; no relational semantics |
 | **Licensing?**                | CC0 or custom assigned terms of use |
 | **Versioning?**               | Serial *internal* versioning; Metadata edits trigger X.Y versions; Only 1 DOI ever minted for any record |
 | **Embargo?**                  | User permissions model; file level restrictions; |
 | **Record description**        | Limited HTML (permitted tags listed); Lists but no tables |
-| **Individual File URLs**      | Download URLs avaible on file landing pages and via API |
+| **Individual File URLs**      | Download URLs available on file landing pages and via API |
 | **Upload options**            | Desktop; Dropbox |
 | **Who are they?**             | Harvard University |
 | **Citation Policy**           | https://dataverse.org/best-practices/academic-credit |
