@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img id="figure2int" onclick="changeImage()" src="fig2_BfieldOn-300-crop.png" width="600" height="843">
+
+<p>Click the image to toggle the magnetic field orientation and zoom boxes.</p>
+
+<script>
+function changeImage() {
+    var image = document.getElementById('figure2int');
+    if (image.src.match("BfieldOn")) {
+        image.src = "fig2_BfieldOff-300-crop.png";
+    } else {
+        image.src = "fig2_BfieldOn-300-crop.png";
+    }
+}
+</script>
+
+</body>
+</html>

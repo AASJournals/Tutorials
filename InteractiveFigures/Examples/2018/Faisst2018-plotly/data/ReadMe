@@ -1,0 +1,27 @@
+================================================================================
+Title: Empirical modeling of the Redshift evolution of the NII/H{alpha}
+       ratio for galaxy redshift surveys 
+Authors: Faisst A.L., Masters D., Wang Y., Merson A., Capak P., Malhotra S.
+         Rhoads J.E.
+================================================================================
+Description of contents: Data behind the interactive plot.ly (https://plot.ly/)
+    Figure 1 in the online version of the article listed above.
+    
+    Data File: Data_Figure1_forApJ.csv
+    
+    The columns mappings from the CSV to the figure are:
+    
+    csv  Figure Axis
+    mass=Log(M)
+    O3  =log([OIII]/Hb)
+    N2  =log([NII]/Ha)
+    sSFR is the specific star formation rate (in log) and is used for the color.
+
+System requirements: None
+
+Additional comments: 
+
+    A version is also available on the author’s website
+    http://www.astro.caltech.edu/~afaisst/files/3dplot/plotly_3dplot1.html
+
+================================================================================

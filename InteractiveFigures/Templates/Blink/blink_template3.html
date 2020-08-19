@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Interactive Figure 1</title>
+
+    <style type="text/css">
+        div.initial {}
+
+        div.itemBox {
+            display: none;
+
+        }
+
+        .item_image {
+            width: 75vw;
+            height: auto;
+        }
+
+        button {
+            font-size: 2vw;
+        }
+
+        p {
+            font-size: 2vw;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div style="margin:auto;">
+        <p>This is the interactive figure title. Please edit or remove it.</p>
+        <img id="figure1int" alt="describe layer1" onclick="changeImage()" src="layer1.png" class="item_image">
+        <p>Click the image to toggle between layers (please update this caption to describe each layer being toggled.</p>
+    </div>
+
+<script>
+function changeImage() {
+    var image = document.getElementById('figure1int');
+    if (image.src.match("layer1")) {
+        image.src = "layer2.png";
+        image.alt = "describe layer 2";
+    } else if (image.src.match("layer2")) {
+        image.src = "layer3.png";
+        image.alt = "describe layer3";
+    } else {
+        image.src = "layer1.png";
+        image.alt = "describe layer1";
+    }
+}
+</script>
+
+</body>
+</html>
