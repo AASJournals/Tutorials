@@ -11,11 +11,11 @@ Per the [AAS Journals' policy on Software](https://journals.aas.org/policy-state
 - Reusable software packages created as a product of the research presented in the manuscript;
 - Software scripts for the replication of analysis or figures or data presented in a manuscript.
 
-Authors of such content should be careful to make informed, collaborative decisions about which developers and contributors should be listed as authors for these cited software releases. Archived codes should be licensed (*at the archive*) and to the extent relevant for the code, [semantically versioned](https://semver.org/). Additional curation recommendations are given below, and authors may wish to read **"Software citation principles**" [(doi:10.7717/peerj-cs.86)](https://doi.org/10.7717/peerj-cs.86)" for additional analysis of the underlying goals of software citation.
+Authors of such content must make careful, informed, collaborative decisions about which developers and contributors should be listed as authors [aka, creators] for these cited software releases. Archived codes should be licensed (*at the archive*) and to the extent relevant for the code, [semantically versioned](https://semver.org/). Additional curation recommendations are given below, and authors may wish to read **"Software citation principles**" [(doi:10.7717/peerj-cs.86)](https://doi.org/10.7717/peerj-cs.86)" for additional analysis of the underlying goals of software citation.
 
 The two most common workflow for authors to persistently archive and cite their codes include:
-- Direct transfer from a tagged and released GitHub repository to Zenodo. This [workflow is documented](https://guides.github.com/activities/citable-code/), and produces a versioned software release. Developers using this workflow should pay very careful attention to matters of authorship as encoded by GitHub/Zenodo workflow and edit the necessary field(s) appropriately.
-- Direct deposit of packaged software (zip/tar.gz) into one of the repositories listed below. This may or may not produce a properly versioned archival software package. This is also the best workflow for materials not stored in Github and for most data releases. 
+- Direct transfer from a tagged and released GitHub repository to Zenodo. This [workflow is documented](https://guides.github.com/activities/citable-code/), and produces a versioned software release. Developers using this workflow should pay very careful attention to the author (aka, creators) as encoded by the GitHub/Zenodo workflow and edit the necessary field(s) appropriately.
+- Direct deposit of packaged software (zip/tar.gz) into one of the repositories listed below. This may or may not produce a properly versioned archival, software package. This is also the best workflow for materials not stored in Github and for most data releases. 
 
 ## Article Related Content
 There are many (non-software) types of article related content that are best served by archiving them in persistent repositories and linking them to final article text. These include:
@@ -67,8 +67,8 @@ The AAS Journals maintain curated ''collections'' in each of these generic repos
 
 Curation is a critical part of publishing digital objects. Your efforts to correctly describe the data or code you've preserved can immediately affect its discovery and reuse. For instance, a laconic abstract or description such as, "Here's the data related to my ApJ paper" does not help the reader understand or use the material shared. In addition to a clear description of the files deposited, the AAS Journals request that you focus on four specific areas when curating your data release: authorship, licensing, community or collection, and linking. Some archives **require** you to carefully edit these fields and will reject the data submission if it is incorrect or incomplete.
 
-#### Authorship
-Please ensure that the author list for your repository corresponds to the appropriate authorship of the data or code. The completenss and precision of these fields are almost entirely under your control and responsibility. Any author listed on a deposit must be made aware of their inclusion and must review any summary of individual contributions.
+#### Authorship [Creators]
+Please ensure that the author list for your repository corresponds to the appropriate authorship of the data or code. Appropriate authorship must account for all contributions to the creation of that data or code. This field can be called "author" or "creator". The completenss and accuracy of this field is almost entirely under the creator's (your) control and responsibility. Any author listed on a deposit must be made aware of their inclusion and must review any summary of individual contributions.
 
 Sometimes a piece of code will be only yours, and in other cases the data is born out of a collaboration. Appropriate authorship means acknowledging all forms of contribution to the deposit. Before creating the author list, you may want to consult a resource such as the [NISO Contributor Roles Taxonomy](https://credit.niso.org/) to help you to focus on who contributed what. Further, software and data publications in repositories have their own author list, independent of other works, e.g., the related article (see in detail the Chapter on "Authorship & Contribution" in the [Joint FORCE11 & COPE Research Data Publishing Ethics Working Group Recommendations](https://doi.org/10.5281/zenodo.5391293)). Sometimes the author list in a repository should match the authorship of a corresponding paper; often it will not. 
 
@@ -84,7 +84,7 @@ It is critical to always license the objects you share for reuse. All rights are
 ![Screen shot of licensing metadata fields in Zenodo. You should always license your shared material. Please ensure the Zenodo license matches the license you've chosen for this release. ](img/zenodo_license.png "Licensing Metadata Fields in Zenodo")
 
 #### Communities
-You may want to list the data or code in the AAS Journals "Community". At the AAS Journals we manage these communities to raise awareness of data and codes published in our Journals; having your data/code in a Community means that a reader can click once to discover all the objects related to AAS Journals in that repository [(try it for Zenodo)](https://zenodo.org/communities/aas/). You can add your data/code DOI to a community when you are creating it.   
+We ask that you list the data or code in the AAS Journals "Community" if it exists for the repository you choose. At the AAS Journals we manage these communities to raise awareness of data and codes published in our Journals; having your data/code in a Community means that a reader can click once to discover all the objects related to AAS Journals in that repository [(try it for Zenodo)](https://zenodo.org/communities/aas/). You can add your data/code DOI to a community while you are creating it.  Adding to a community also gives the AAS data editors the ability to directly curate the data and metadata in your deposit, potentially improving its ability to be reused. 
 
 ![Screen shot of Communities fields in Zenodo. Adding your data or code to a Community can increase its discoverability. ](img/zenodo_communities.png "Communities Metadata Fields in Zenodo")
 
@@ -123,7 +123,7 @@ Other kinds of relationships need to be added manually; we focus on those relate
 | **Pricing/Policies/FAQ**      | http://help.zenodo.org/ |
 | **Citation Policy**           | See recommended citation on individual record landing page |
 | **Preservation Policy**       | http://about.zenodo.org/policies/ |
-| **Other tips/tricks**         | Watch auto-generated GitHub=>Zenodo metadata; use 'Additional notes' for attribution requirements; use semantic versioning for version field |
+| **Other tips/tricks**         | Watch auto-generated GitHub=>Zenodo metadata, especially the "creators" (sameAs "authors") fields; use 'Additional notes' for attribution requirements; use semantic versioning for version field; skip the references field and use related-identifiers instead for references or adding relationships to articles/preprints. |
 | **API information**           | http://developers.zenodo.org/ |
 |   |   |
 |   |   |
@@ -153,7 +153,7 @@ Other kinds of relationships need to be added manually; we focus on those relate
 | **Preservation Policy**       | https://dataverse.org/best-practices/harvard-dataverse-preservation-policy |
 | **Pricing/Policies/FAQ**      | http://best-practices.dataverse.org/harvard-policies |
 | **API information**           | http://guides.dataverse.org/en/latest/api/index.html (generic to all Dataverse installs) |
-| **Other tips/tricks**         | File tagging can be useful to create subsets of a record ("dataset") |
+| **Other tips/tricks**         | File tagging can be useful to create subsets of a record ("dataset"); using an astronomy metadata template enables parsing of keywords from FITS data files |
 |   |   |
 |   |   |
 
